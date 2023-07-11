@@ -34,7 +34,7 @@ export default {
                 },
                 {
                     title: "Learning & Resources",
-                    to: '/learning-resources/'
+                    to: '/learning-and-resources/'
                 }
             ],
         },
