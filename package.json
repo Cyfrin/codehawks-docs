@@ -17,5 +17,8 @@
     "vite": "^4.4.1"
   },
   "type": "module",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@sveltejs/adapter-vercel": "^3.0.1"
+  }
 }
