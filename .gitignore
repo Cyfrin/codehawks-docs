@@ -2,3 +2,5 @@
 .sveltepress
 node_modules
 .env
+.vercel
+dist
