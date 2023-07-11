@@ -1,0 +1,21 @@
+{
+  "name": "codehawks-docs",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^2.0.2",
+    "@sveltejs/kit": "^1.22.1",
+    "@sveltepress/theme-default": "^1.16.1",
+    "@sveltepress/vite": "^0.25.1",
+    "@types/node": "^20.4.0",
+    "svelte": "^4.0.5",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.1"
+  },
+  "type": "module",
+  "license": "MIT"
+}

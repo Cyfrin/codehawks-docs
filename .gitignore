@@ -1,0 +1,4 @@
+.svelte-kit
+.sveltepress
+node_modules
+.env
