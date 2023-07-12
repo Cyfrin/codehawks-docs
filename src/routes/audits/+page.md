@@ -36,9 +36,15 @@ Then the audit starts! Your auditors will use every tool in their arsenal to fin
 
 For a competitive audit, this is when hundreds of auditors will start looking at your codebase and submit findings. They will be competiting to find as many vulnerabilties as possible. 
 
-### Private Audit 
+### Private Competition
 
-This is where the specific auditors on your project will start working on securing your codebase. 
+This is a competitive audit with specific auditors you'd like to include. 
+
+### Private Audit (Direct Solo Hire)
+
+This is where the specific auditors on your project will start working on securing your codebase. You will be able to hire them directly through CodeHawks.
+
+When you post an audit looking for a direct hire, auditors will bid on your project. You will be able to invite specific auditors to your project. 
 
 ## 4. Initial Report
 After the period ends, the auditors will give you an initial report that looks like [this](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2023-03-13-beanstalk_wells_v0.1.pdf). 
