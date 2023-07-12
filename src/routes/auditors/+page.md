@@ -21,12 +21,12 @@ You can see the latest audits on the [CodeHawks.com](https://codehawks.com/) hom
 
 Once an audit starts, you can start going submitting findings. You submit findings through the website. 
 
-### What is a finding? 
+## Step 4: Wait for judging to end
 
-A finding represents a vulnerability in the codebase, they are separeted *loosely* into 3 categories:
+The [Cyfrin](https://www.cyfrin.io/) team will then do the judging for the findings! We will be updating expected durations based on how the initial competitions go. 
 
-- High: Funds are directly or nearly directly at risk
-- Medium: Funds are indirectly at risk
-- Low & Gas: Funds are not at risk, but the code has issues 
+## Step 5: Report finalized, and get paid!
 
-However, if the protocol specifically states some different criteria, then that is what should be followed.
+Then, once the final report comes out, we will announce the winners and pay them out to their wallet addresses!
+
+At the moment, we will be using the [Arbitrum L2](https://arbitrum.io/) for payouts.

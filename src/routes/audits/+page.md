@@ -19,7 +19,7 @@ Once they reach out, the teams will discuss how long the audit will take based o
 How long the audit will take depends on how many lines of code.
 A very rough approximation of how long an audit takes depending on how many source lines of code you have can be found here:
 
-![Duration](/lines-of-code-duration.png)
+<img src="/lines-of-code-duration.png" alt="Duration of an audit" width="500" height="500">
 
 Typical time it takes to audit a project based on number of lines of code.
 The duration sets the price, and at the time of recording, prices can range widely based on the different auditors.

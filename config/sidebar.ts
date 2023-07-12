@@ -25,11 +25,11 @@ export default {
             collapsible: true,
             items: [
                 {
-                    title: "auditors",
+                    title: "Auditors",
                     to: '/auditors/'
                 },
                 {
-                    title: "rewards-and-judging",
+                    title: "Rewards & Judging",
                     to: '/rewards-and-judging/'
                 },
                 {
