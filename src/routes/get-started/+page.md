@@ -1,6 +1,6 @@
-# CodeHawks (Beta)
+## CodeHawks (Beta)
 
-[CodeHawks](https://codehawks.com/) is your go-to smart contract pre-deployment auditor marketplace. 
+[CodeHawks](https://codehawks.com/) is your go-to smart contract pre-deployment auditor marketplace.
 
 _As of V0.1 of CodeHawks, only Competitive Audits are supported._
 
@@ -11,16 +11,16 @@ _As of V0.1 of CodeHawks, only Competitive Audits are supported._
 Right now, the industry has the following issues:
 1. 6% of DeFi was hacked last year
 2. Projects don't know which auditors are good
-3. And the process of finding auditors is to "DM them on Twitter" or "Google it" 
+3. And the process of finding auditors is to "DM them on Twitter" or "Google it"
 
-We need to fix this. 
+We need to fix this.
 
 ## Solution
 
 A marketplace for smart contract auditors:
 - Where projects can see other auditors reputation.
-- Smart Contract auditors don't need to be marketing pros, and can focus on their work. 
-- And a place to compete, so we can have an objective measure of auditors skills.  
+- Smart Contract auditors don't need to be marketing pros, and can focus on their work.
+- And a place to compete, so we can have an objective measure of auditors skills.
 
 Head on over to the [discord](https://discord.gg/QsK8BPCdXM) to join the community!
 
@@ -42,13 +42,13 @@ Unfamiliar with a smart contract audit, or why you might need one? We've got you
 </a>
 
 
-You can read below to hear more about how the two kinds of audits work, and get more information on which one might be right for you. 
+You can read below to hear more about how the two kinds of audits work, and get more information on which one might be right for you.
 
 _As of V0.1 of CodeHawks, only Competitive Audits are supported._
 
 ## How it works for smart contract auditors
 
-1. Come to CodeHawks 
+1. Come to CodeHawks
 2. Register as an auditor
 3. And start soliciting audits!
 
