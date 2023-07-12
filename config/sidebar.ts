@@ -45,6 +45,10 @@ export default {
         {
             title: 'Roadmap',
             to: '/roadmap/',
+        },
+        {
+            title: 'Why CodeHawks?',
+            to: '/why-codehawks/',
         }
     ],
 

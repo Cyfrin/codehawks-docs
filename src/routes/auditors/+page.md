@@ -2,7 +2,6 @@
 
 Welcome auditors! 
 
-
 # Find the latest audits
 
 Go to [CodeHawks.com](https://codehawks.com/) to see the latest audits. 

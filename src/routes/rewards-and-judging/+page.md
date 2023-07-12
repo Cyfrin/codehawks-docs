@@ -85,6 +85,16 @@ Auditor A = 6.62 / 16.76 = 39.5% of the prize pot = $11,850
 Auditor B = 7.07 / 16.76 = 42.2% of the prize pot = $12,660
 Auditor C = 3.07 / 16.76 = 18.3% of the prize pot = $5,490
 
+## QA / Informational / Low / Gas findings
+
+As of today, this tier competes for a much smaller set of the prize pool. At the moment, the awards are calucated as such:
+
+```
+Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount
+```
+
+Obviously, their is a much smaller prize pool for this tier, and it can be a lot of work to run through all the findings in such a tier. Submissions that show low effort will be disqualified, as discretion by the judges.  
+
 # Who judges?
 
 As of V0.1, the [Cyfrin](https://www.cyfrin.io/) team exclusively judges the audits. We are working on a decentralized judging model to prevent bias. The Cyfrin team is not allowed to participate in audit competitions due to this. 
