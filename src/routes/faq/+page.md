@@ -8,6 +8,10 @@ Here are some frequently asked questions.
 
 Yes
 
+### 🔎 What is nSLOC?
+
+This stands for "number of source lines of code". It represents how many lines of *source* code a project has, meaning not including comments, blank lines, etc. 
+
 ## 🦚 Audit Marketplace
 
 Coming soon...
