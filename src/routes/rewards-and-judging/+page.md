@@ -43,7 +43,11 @@ With your findings in [markdown](https://www.markdownguide.org/). However, pleas
 
 ### Issue validity
 
-If more than 15% of your findings are not valid findings, you will be disqualified from the competition and recieving payout. This is meant to give you enough leeway to submit some invalid submissions, but not spam the system. 
+If more than 85% of your findings are not valid findings, you will be disqualified from the competition and recieving payout. This is meant to give you enough leeway to submit some invalid submissions, but not spam the system. 
+
+For example:
+- 1 valid, 6 invalids = 14.3% valid -> disqualified
+- 2 valid, 6 invalids = 25% valid -> qualified
 
 ### Timely
 
