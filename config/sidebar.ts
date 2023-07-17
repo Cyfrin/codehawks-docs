@@ -5,7 +5,7 @@ export default {
             to: '/get-started/',
         },
         {
-            title: 'Projects',
+            title: '🏔️ Projects',
             collapsible: true,
             items: [
                 {
@@ -16,12 +16,16 @@ export default {
                     title: "Competitive vs Private Audits",
                     to: '/competitive-vs-private/'
                 },
+                {
+                    title: 'Pricing',
+                    to: '/pricing/',
+                }
 
             ]
 
         },
         {
-            title: 'Auditors',
+            title: '🦅 Auditors',
             collapsible: true,
             items: [
                 {
@@ -39,17 +43,17 @@ export default {
             ],
         },
         {
-            title: 'Goals & Philosophy',
+            title: '🎯 Goals & Philosophy',
             to: '/goals-and-philosophy/',
         },
         {
-            title: 'Roadmap',
+            title: '🛣️ Roadmap',
             to: '/roadmap/',
         },
         {
-            title: 'Why CodeHawks?',
+            title: '🔎 Why CodeHawks?',
             to: '/why-codehawks/',
-        }
+        },
     ],
 
 }
