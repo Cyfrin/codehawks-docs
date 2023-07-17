@@ -2,9 +2,15 @@
 
 A finding represents a vulnerability in the codebase, they are separeted *loosely* into 3 categories:
 
-- High: Funds are directly or nearly directly at risk
-- Medium: Funds are indirectly at risk
-- Low & Gas: Funds are not at risk, but the code has issues 
+- High: 
+  - Funds are directly or nearly directly at risk
+- Medium: 
+  - Funds are indirectly at risk
+  - Disruption of protocol functionality or availability
+- Low, Gas, Informational: 
+  - Low: Funds are not at risk, but a function is incorrect, state not handled appropriately, etc.
+  - Gas: Gas optimizations
+  - Informational: Code style, maturity, smells, comment correctness, etc
 
 There is some subjectivity when it comes to these categories, and it's up to the judges discretion to determine the category.
 
@@ -13,6 +19,7 @@ If the protocol specifically states some different criteria, then that is what s
 At the start of each competition, the [4naly3er](https://github.com/Picodes/4naly3er) tool will be run, and all findings associated with this tool are inelligible for rewards.
 
 As CodeHawks evolves, this basis for findings will likely change.
+
 
 ## Format
 
@@ -100,3 +107,87 @@ Obviously, their is a much smaller prize pool for this tier, and it can be a lot
 As of V0.1, the [Cyfrin](https://www.cyfrin.io/) team exclusively judges the audits. We are working on a decentralized judging model to prevent bias. The Cyfrin team is not allowed to participate in audit competitions due to this. 
 
 At the moment, there is no escalation period. We will be iterating on this process as the protocol grows. 
+
+
+# Severity Examples
+
+## High
+
+Classic reentrancy, the protocol is supposed to keep funds safe, but they are at risk of being stolen here due to a reentrancy attack. 
+
+```javascript
+contract EtherStore {
+    mapping(address => uint) public balances;
+
+    function deposit() public payable {
+        balances[msg.sender] += msg.value;
+    }
+
+    function withdraw() public {
+        uint bal = balances[msg.sender];
+        require(bal > 0);
+
+        (bool sent, ) = msg.sender.call{value: bal}("");
+        require(sent, "Failed to send Ether");
+
+        balances[msg.sender] = 0;
+    }
+
+    // Helper function to check the balance of this contract
+    function getBalance() public view returns (uint) {
+        return address(this).balance;
+    }
+}
+```
+
+## Medium
+
+Chainlink price feeds can go stale, so there should be check to make sure they are not stale.
+
+If the Chainlink feed goes stale, and the protocl is relying on it, then the protocol could be at risk. This means the funds are indirectly at risk. The attack path is very difficult. 
+
+```javascript
+function getPriceOfRewardToken() external view returns (uint256) {
+    (,int256 price,,,) = priceFeed.latestRoundData();//@audit chainlink price feed - stale price check is missing
+    return (uint256(price) * Constants.PINT) / PRICE_FEED_PRECISION;
+}
+```
+
+## Low
+
+The helper `getState` function should return the `state` and not `STARTING_STATE`. The rest of the protocol does not use this function, so the severity of this is low. 
+
+```javascript
+uint256 public state;
+uint256 public constant STARTING_STATE = 1;
+
+
+// Helper function
+// Returns the state of the contract
+function getState() external view returns (uint256) {
+    return STARTING_STATE;
+}
+```
+
+## Informational
+
+The comment is wrong, the function returns the native token balance of the contract. 
+
+```javascript
+// This gets the erc20 balance of the contract
+function getBalance() public view returns (uint) {
+    return address(this).balance;
+}
+```
+
+## Gas 
+
+The `permanentValue` is only set once, and therefore should be `immutable` instead of a storage variable.
+
+```javascript
+uint256 public permanentValue;
+
+constructor() {
+    permanentValue = 0;
+}
+```
