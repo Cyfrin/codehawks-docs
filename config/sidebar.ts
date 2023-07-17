@@ -54,6 +54,10 @@ export default {
             title: '🔎 Why CodeHawks?',
             to: '/why-codehawks/',
         },
+        {
+            title: '❓ FAQ',
+            to: '/faq/',
+        }
     ],
 
 }
