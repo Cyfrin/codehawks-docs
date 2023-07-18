@@ -106,6 +106,12 @@ Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount
 
 Obviously, their is a much smaller prize pool for this tier, and it can be a lot of work to run through all the findings in such a tier. Submissions that show low effort will be disqualified, as discretion by the judges.  
 
+## Selected Finding
+
+When there are duplicate findings, for the final report, the judges will choose the "best" report (subjective) based on how well it articulates the issue, mitigation, and impact. 
+
+The selected written report will be awarded 1.4x their number of shares on that finding. 
+
 # Who judges?
 
 As of V0.1, the [Cyfrin](https://www.cyfrin.io/) team exclusively judges the audits. We are working on a decentralized judging model to prevent bias. The Cyfrin team is not allowed to participate in audit competitions due to this. 
