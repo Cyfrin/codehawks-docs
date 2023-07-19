@@ -15,7 +15,7 @@ These are educational content to get you up to speed with solidity & smart contr
 - [Hardhat & Solidity full course](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 - [CryptoZombies](https://cryptozombies.io/)
 - [solidity-by-example](https://solidity-by-example.org/)
-- [Alchemy University](https://speedrunethereum.com/)
+- [Alchemy University](https://university.alchemy.com/)
 - [Speedrun Ethereum](https://speedrunethereum.com/)
 - [LearnWeb3DAO](https://learnweb3.io/)
 - [Patrick Collins YouTube](https://www.youtube.com/@PatrickAlphaC)
