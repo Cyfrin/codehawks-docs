@@ -6,13 +6,13 @@ Competitive and private audits have different value props.
 
 ## Differences
 
-| Feature                  | Competitive audit       | Private Audit |
-| ------------------------ | ----------------------- | ------------- |
-| Cost                     | Slightly more expensive | Cheaper       |
-| Number of auditors       | Hundreds                | 1 - 5         |
-| Do they find everything? | Yes*                    | Yes*          |
-| Personal feedback        | Less                    | More          |
-| Who are the auditors?    | You don't know          | You know      |
+| Feature                     | Competitive audit       | Private Audit |
+| --------------------------- | ----------------------- | ------------- |
+| Cost                        | Slightly more expensive | Cheaper       |
+| Number of auditors          | Hundreds                | 1 - 5         |
+| How many bugs do they find? | See below               | See below     |
+| Personal feedback           | Less                    | More          |
+| Who are the auditors?       | You don't know          | You know      |
 
 ## Similarities
 
@@ -25,4 +25,12 @@ Competitive audits have potentially hundreds of auditors looking at your codebas
 We will be monitoring the differences between the two as the project grows.
 
 Ideally, you do both!
+
+## How many bugs do they find?
+
+We are still seeing results from competitive and private audits, but at the moment, they are both seen as effective methods for finding issues.
+
+You can think of a private or direct audit as more of a "consultation" where you can ask questions and get feedback on your codebase.
+
+Whereas a competitive audit is a "firehose" approach to finding issues in a codebase. 
 
