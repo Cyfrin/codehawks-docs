@@ -5,7 +5,7 @@ Welcome to the CodeHawks documentation repository, which contains the source cod
 
 ## Requirements 🛠️
 
-To embark on this exciting journey, you'll need the following tools:
+To embark on this exciting journey, you need these:
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 🌿
   - You'll know you did it right if you can run `git --version` and witness a majestic response like `git version x.x.x`
@@ -19,6 +19,7 @@ To embark on this exciting journey, you'll need the following tools:
 git clone https://github.com/Cyfrin/codehawks-docs
 cd codehawks-docs
 pnpm install
+```
 
 2. 🏁 Start your local server 🌐
 ```bash
