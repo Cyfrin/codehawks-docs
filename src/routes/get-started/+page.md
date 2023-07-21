@@ -28,7 +28,7 @@ Head on over to the [discord](https://discord.gg/QsK8BPCdXM) to join the communi
 
 Unfamiliar with a smart contract audit, or why you might need one? We've got you covered, watch this video here!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aOqhQvWhUG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="What is a smart contract audit"></iframe>
+[![What is a smart contract audit](http://img.youtube.com/vi/aOqhQvWhUG0/0.jpg)](http://www.youtube.com/watch?v=aOqhQvWhUG0)
 
 ## How it works for projects/protocols
 
