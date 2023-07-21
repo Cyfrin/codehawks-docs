@@ -1,3 +1,5 @@
+[![](./static/codehawks-banner-ascii.png)](https://www.codehawks.com/)
+
 # CodeHawks Docs
 
 This repo contains the source code for the CodeHawks docs site.
