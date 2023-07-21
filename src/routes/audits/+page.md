@@ -2,7 +2,7 @@
 
 Both private and competitive audits work similarly, here is the basic process.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aOqhQvWhUG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="What is a smart contract audit"></iframe>
+[![What is a smart contract audit](http://img.youtube.com/vi/aOqhQvWhUG0/0.jpg)](http://www.youtube.com/watch?v=aOqhQvWhUG0)
 
 ## CodeHawks
 
@@ -19,7 +19,7 @@ Once they reach out, the teams will discuss how long the audit will take based o
 How long the audit will take depends on how many lines of code.
 A very rough approximation of how long an audit takes depending on how many source lines of code you have can be found here:
 
-<img src="/lines-of-code-duration.png" alt="Duration of an audit" width="500" height="500">
+<img src="../../../static/lines-of-code-duration.png" alt="Duration of an audit" width="400" height="400">
 
 Typical time it takes to audit a project based on number of lines of code.
 The duration sets the price, and at the time of recording, prices can range widely based on the different auditors.
