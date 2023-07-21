@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Genesis3800/codehawks-docs/assets/56264430/a65ecaca-cf7b-4a9b-a253-adeef8774283" alt="CodeHawks Logo" width="200">
+  <img src="https://github.com/Genesis3800/codehawks-docs/assets/56264430/a65ecaca-cf7b-4a9b-a253-adeef8774283" alt="CodeHawks Logo" width="400">
 </p>
 
 <h1 align="center">🚀 CodeHawks Docs 📚</h1>
