@@ -1,29 +1,41 @@
-# CodeHawks Docs
+<p align="center">
+  ![image](https://github.com/Genesis3800/codehawks-docs/assets/56264430/a65ecaca-cf7b-4a9b-a253-adeef8774283)
+</p>
 
-This repo contains the source code for the CodeHawks docs site.
+<h1 align="center">🚀 CodeHawks Docs 📚</h1>
 
-## Requirements
+<p align="center">
+  <b>Home of the CodeHawks documentation</b><br>
+  This is the source code to the coolest place where you can find all the details about using and contributing to CodeHawks!
+</p>
 
-- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
-- [pnpm](https://pnpm.io/)
-  - You'll know you did it right if you can run `pnpm --version` and you see a response like `x.x.x`
+## 📋 Prerequisites
 
-## Quickstart
+Here's what you need to start:
 
-1. Clone repo and install dependencies
-```bash
-git clone https://github.com/Cyfrin/codehawks-docs
-cd codehawks-docs
-pnpm install
-```
+- **[git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)** 🐙
+  - Not sure if you've got it? Try running `git --version`. If you see something like `git version x.x.x`, you're good to go!
+- **[pnpm](https://pnpm.io/)** 📦
+  - Test it out with `pnpm --version`. If you see a version number (`x.x.x`), it's a go!
 
-2. Start local server
+## 🏁 Quickstart
 
-```bash
-pnpm dev
-```
+Ready to dive in? Let's do this! 🏊‍♂️
 
-# Thank you!
+1. 🐣 **Clone the repo and install dependencies**
 
-We are always open to contributions, feel free to make a PR to improve the docs!
+    ```bash
+    git clone https://github.com/Cyfrin/codehawks-docs
+    cd codehawks-docs
+    pnpm install
+    ```
+
+2. 🚀 **Start the local server**
+
+    ```bash
+    pnpm dev
+    ```
+
+## ❤️ Thank You!
+
+Your contributions keep CodeHawks flying! If you have a great idea for improving the docs, don't hesitate to make a PR. We can't wait to see what you create! 🎉
