@@ -4,7 +4,7 @@ Here are some frequently asked questions.
 
 ## 🦅 Competitive Audits
 
-### 🔎 Do we have till the start date to see the code?
+### 🔎 Do we have to wait till the start date to see the code?
 
 Yes
 
