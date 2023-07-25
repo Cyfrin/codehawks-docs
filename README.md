@@ -1,4 +1,3 @@
-<img width="926" alt="Screenshot 2023-07-21 at 11 44 14 PM" src="https://github.com/0xprinc/codehawks-docs/assets/82727098/49cee156-2cfe-4f29-8a7c-4f89db3625dd">
 
 # 🦅 CodeHawks Docs 📚
 Welcome to the CodeHawks documentation repository, which contains the source code for the CodeHawks docs site! 🚀
