@@ -1,3 +1,4 @@
+[![](./static/codehawks-banner-ascii.png)](https://www.codehawks.com/)
 
 # 🦅 CodeHawks Docs 📚
 Welcome to the CodeHawks documentation repository, which contains the source code for the CodeHawks docs site! 🚀
