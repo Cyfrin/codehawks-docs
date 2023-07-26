@@ -26,13 +26,13 @@ As CodeHawks evolves, this basis for findings will likely change.
 The format of a finding will look as such:
 
 ```
-## Title
+## Summary
 
-## Description
-
-## Proof of Concept
+## Vulnerability Details
 
 ## Impact
+
+## Tools Used 
 
 ## Recommend Mitigation
 ```
