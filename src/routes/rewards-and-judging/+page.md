@@ -1,6 +1,6 @@
 # What is a finding? 
 
-A finding represents a vulnerability in the codebase, they are separeted *loosely* into 3 categories:
+A finding represents a vulnerability in the codebase, they are separated *loosely* into 3 categories:
 
 - High: 
   - Funds are directly or nearly directly at risk
@@ -12,11 +12,11 @@ A finding represents a vulnerability in the codebase, they are separeted *loosel
   - Gas: Gas optimizations
   - Informational: Code style, maturity, smells, comment correctness, etc
 
-There is some subjectivity when it comes to these categories, and it's up to the judges discretion to determine the category.
+There is some subjectivity when it comes to these categories, and it's up to the judges' discretion to determine the category.
 
 If the protocol specifically states some different criteria, then that is what should be followed. 
 
-At the start of each competition, the [4naly3er](https://github.com/Picodes/4naly3er) tool will be run, and all findings associated with this tool are inelligible for rewards.
+At the start of each competition, the [4naly3er](https://github.com/Picodes/4naly3er) tool will be run, and all findings associated with this tool are ineligible for rewards.
 
 As CodeHawks evolves, this basis for findings will likely change.
 
@@ -43,7 +43,7 @@ With your findings in [markdown](https://www.markdownguide.org/). However, pleas
 
 ### Issue validity
 
-If more than 85% of your findings are not valid findings, you will be disqualified from the competition and recieving payout. This is meant to give you enough leeway to submit some invalid submissions, but not spam the system. 
+If more than 85% of your findings are not valid findings, you will be disqualified from the competition and receiving payout. This is meant to give you enough leeway to submit some invalid submissions, but not spam the system. 
 
 For example:
 - 1 valid, 6 invalids = 14.3% valid -> disqualified
@@ -98,7 +98,7 @@ Auditor C = 3.07 / 16.76 = 18.3% of the prize pot = $5,490
 
 ## QA / Informational / Low / Gas findings
 
-As of today, this tier competes for a much smaller set of the prize pool. At the moment, the awards are calucated as such:
+As of today, this tier competes for a much smaller set of the prize pool. At the moment, the awards are calculated as such:
 
 ```
 Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount
@@ -154,7 +154,7 @@ contract EtherStore {
 
 Chainlink price feeds can go stale, so there should be check to make sure they are not stale.
 
-If the Chainlink feed goes stale, and the protocl is relying on it, then the protocol could be at risk. This means the funds are indirectly at risk. The attack path is very difficult. 
+If the Chainlink feed goes stale, and the protocol is relying on it, then the protocol could be at risk. This means the funds are indirectly at risk. The attack path is very difficult. 
 
 ```javascript
 function getPriceOfRewardToken() external view returns (uint256) {
