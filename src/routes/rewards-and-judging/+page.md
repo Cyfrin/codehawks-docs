@@ -75,7 +75,7 @@ High Risk Shares: 5 * (0.9 ^ (findingCount - 1)) / findingCount
 In this example, we look at how a competition payout would be calculated.
 
 - H/M Prize Pot: $30,000
-- Final report: 3 Highs, 2 Mediums
+- Final report: 3 Highs, 3 Mediums
 - Auditor A: High A, B, Medium A
 - Auditor B: High A, C, Medium A, B
 - Auditor C: High A, Medium A, B, C
