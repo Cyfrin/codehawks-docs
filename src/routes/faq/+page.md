@@ -87,3 +87,39 @@ Lastly, even if you're unsure, it's better to submit your finding. The judges wi
 The severity of findings has an element of subjectivity. The judges will review your submission and may re-categorize it based on their assessment.
 
 There isn't a direct penalty mentioned for misclassifying the severity. However, consistently misclassifying or misrepresenting findings could impact your credibility in the competition.
+
+## ❕ **Escalations**
+---
+### **When will the preliminary results be released?**
+
+The preliminary results will be unveiled as soon as our judging process concludes.
+
+### **Will there be a chance to discuss or challenge these preliminary results?**
+
+Yes! We've set an escalation period of exactly 2 days immediately after the results are announced. This will be your opportunity to raise concerns or provide additional insights.
+
+### **How will I know when the escalation period starts?**
+
+Keep a close watch on our communication channels (Twitter, Discord, Email etc)! We'll notify you as soon as the judging phase ends and the escalation window opens.
+
+### **Why is this process new?**
+
+This is our very first set of competitive audits. The overwhelming enthusiasm from the community has resulted in a record-breaking number of submissions. We're learning and improving every step of the way!
+
+### **How do I raise an escalation?**
+
+Please make a comment on your judged submission, in GitHub, detailing your concerns. State why you believe your issue is valid or challenge other entries if you find discrepancies.
+
+### **What happens if my escalation lacks substantial evidence or reasoning?**
+
+We appreciate thoroughness. Any escalation that appears hastily made or lacks clear evidence will be closed promptly. Quality over quantity!
+
+### **I've raised multiple issues. Will they all be considered?**
+
+While we encourage valid concerns, it's crucial to be discerning. If we find that a participant frequently raises issues with little merit, we might close their subsequent escalations, regardless of validity. The term "too many issues" is subjective for this competition. We urge you to be thoughtful.
+
+### **Will future competitions have clearer guidelines?**
+
+Absolutely! We aim to continually refine and enhance our judging parameters and escalation processes in subsequent editions based on feedback and learnings.
+
+**Feedback Form:** https://app.deform.cc/form/992e3c6a-b817-49f5-8075-1e50fb2e2d0f/
