@@ -1,6 +1,6 @@
 # Learning & Resources
 
-In order to stay ahead of the attackers, you need to be constantly learning. 
+In order to stay ahead of the attackers, you need to be constantly learning.
 
 ## Educational Resources
 
@@ -22,7 +22,7 @@ These are educational content to get you up to speed with solidity & smart contr
 
 # Auditor Education
 
-These are sites and resources that focus specifically on smart contract auditing. 
+These are sites and resources that focus specifically on smart contract auditing.
 
 - [Symbolic Execution Breakdown](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
 - [Formal Verification Breakdown](https://www.youtube.com/watch?v=izpoxfTSaFs)
@@ -33,20 +33,28 @@ These are sites and resources that focus specifically on smart contract auditing
 - [Andy Li](https://www.youtube.com/@andyli)
 - [Secureum](https://secureum.substack.com/)
 
+## CTF (Capture The Flag)
+
+These are minigames that help you learn smart contract auditing.
+
+- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+- [EtherHack](https://etherhack.positive.com/#/)
+- [The Ethernaut](https://ethernaut.openzeppelin.com/)
+
 # Auditor Tools
 
 These are auditor tools that you can use to help you audit smart contracts.
 
 - [Solodit](https://solodit.xyz/) <- (Use this once you start doing competitive audits!)
 
-## Static Analysis 
+## Static Analysis
 
 - [Slither](https://github.com/crytic/slither)
 - [4naly3er](https://github.com/Picodes/4naly3er)
 
 ## Symbolic Execution / Formal Verification Tools
 
-*Note: At the moment, formal verification is sometimes seen as overkill, especially for competitive audits.*
+_Note: At the moment, formal verification is sometimes seen as overkill, especially for competitive audits._
 
 - [Manticore](https://github.com/trailofbits/manticore)
 - [Mythril](https://github.com/ConsenSys/mythril)
