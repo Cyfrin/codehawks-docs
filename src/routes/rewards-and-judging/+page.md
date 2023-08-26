@@ -1,14 +1,25 @@
 # What is a finding? 
 
-A finding represents a vulnerability in the codebase, they are separeted *loosely* into 3 categories:
+A finding represents a vulnerability in the codebase, they are separeted into 3 categories that is calculated through their "impact", and "likelihood" parameters. There are also two different finding categories that are not associated with any calculations. Main classification done as follows:
+## Risk Classification
+- Impact
+  - High - This level implies a substantial risk, where there's a possibility of losing more than 10% of the assets in the system, or causing a major negative impact on most users. This is a critical level that could lead to serious consequences if not addressed properly.
+  - Medium - This level suggests a less severe risk, where global losses are less than 10%, or the losses only affect a portion of users. Even though these losses are not as severe as those categorized as 'High', they are still not tolerable and need to be addressed.
+  - Low - This is the least severe level, typically associated with manageable losses. It includes issues such as minor attacks that can be easily fixed, or inefficiencies. Even though these issues are of lower severity, they can still negatively affect user experience and should not be ignored.
+- Likelihood
+  - High - This level implies that the occurrence of the hack is almost guaranteed. It could be due to the ease of the hack happening, or even if it's not easy, there are strong incentives driving it.
+  - Medium - This level signifies that the hack can happen under specific conditions (attack path is harder to find) or incentives and is fairly likely to occur.
+  - Low - This level indicates that the hack happening would require a perfect set of circumstances (attack path is complicated) or there's little to no incentive for it to occur (attacker won't gain value or lose value). This means it's not very likely to happen.
 
-- High: 
-  - Funds are directly or nearly directly at risk
-- Medium: 
-  - Funds are indirectly at risk
-  - Disruption of protocol functionality or availability
-- Low, Gas, Informational: 
-  - Low: Funds are not at risk, but a function is incorrect, state not handled appropriately, etc.
+### Final Severity
+
+| Severity Level      | Impact: High | Impact: Medium | Impact: Low |
+| :-------------------| :------:     | :-:            |:----:       |
+| Likelihood: High    |     High     |      High      |    Medium   |
+|  Likelihood: Medium |     High     |     Medium     |     Low     |
+|  Likelihood: Low    |     Medium   |      Low       |     Low     |
+
+### Additional Categories
   - Gas: Gas optimizations
   - Informational: Code style, maturity, smells, comment correctness, etc
 
