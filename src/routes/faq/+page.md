@@ -87,3 +87,19 @@ Lastly, even if you're unsure, it's better to submit your finding. The judges wi
 The severity of findings has an element of subjectivity. The judges will review your submission and may re-categorize it based on their assessment.
 
 There isn't a direct penalty mentioned for misclassifying the severity. However, consistently misclassifying or misrepresenting findings could impact your credibility in the competition.
+
+
+### **Where can I find invoice information for my winnings?**
+
+```
+Address:
+9066 CASCADA WAY #102
+NAPLES, FL. 34114
+United States
+
+Tax ID:
+92-1600150
+
+Company Name:
+Cyfrin Inc.
+```

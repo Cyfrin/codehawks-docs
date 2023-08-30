@@ -6,6 +6,7 @@
 2. We have no token, and therefore we are not [plutocratic](https://vitalik.ca/general/2018/03/28/plutocracy.html)
 3. We ship educational content, to make you the best auditor you can be
 4. We fight for transparency, and do all we can to make Web3 a better place, and raise the DeFi TVL
+5. Anon judging, we are dedicated to making sure that incentives are always in favor of fairness. 
 
 ## Coming soon...
 
