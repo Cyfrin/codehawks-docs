@@ -1,16 +1,49 @@
 # What is a finding? 
 
-A finding represents a vulnerability in the codebase, they are separeted *loosely* into 3 categories:
+A finding represents a vulnerability in the codebase, they are separeted *loosely* into 3 categories of `High`, `Medium`, and `Low`. 
 
-- High: 
+To determine a finding's severity, you can look at the impact vs likelihood matrix. 
+
+|            |        | Impact |        |     |
+| ---------- | ------ | ------ | ------ | --- |
+|            |        | High   | Medium | Low |
+|            | High   | H      | H/M    | M   |
+| Likelihood | Medium | H/M    | M      | M/L |
+|            | Low    | M      | M/L    | L   |
+
+## Impact
+
+The impact to users. Impact can be "high", "medium", or "low".
+
+Examples:
+- High
   - Funds are directly or nearly directly at risk
-- Medium: 
+  - Severe disruption of protocol functionality or availability
+- Medium
   - Funds are indirectly at risk
   - Disruption of protocol functionality or availability
-- Low, Gas, Informational: 
-  - Low: Funds are not at risk, but a function is incorrect, state not handled appropriately, etc.
-  - Gas: Gas optimizations
-  - Informational: Code style, maturity, smells, comment correctness, etc
+- Low 
+  - Funds are not at risk, but a function is incorrect, state not handled appropriately, etc.
+
+
+## Likelihood
+
+Likelihood is the probability of the impact occuring. Likelihood can be "high", "medium", or "low".
+
+- High
+  - Highly likely to happen. (ex: A hacker can call a function directly and get money)
+- Medium
+  - It might happen (ex: A specific weird ERC20 is used on a platform)
+- Low
+  - Unlikely to happen. (ex: If a difficult to change variable is set to a certain value on a very specific singular block)
+
+Keep in mind, there are some events where the likelihood is considered "computational infeasible" and do not count as low. An example would be:
+
+"An attack could guess the users private key".
+
+In such cases, it's on the finding audthor to prove that their finding is computational feasible. 
+
+## Subjectivity 
 
 There is some subjectivity when it comes to these categories, and it's up to the judges discretion to determine the category.
 
@@ -19,7 +52,6 @@ If the protocol specifically states some different criteria, then that is what s
 At the start of each competition, the [4naly3er](https://github.com/Picodes/4naly3er) tool will be run, and all findings associated with this tool are inelligible for rewards.
 
 As CodeHawks evolves, this basis for findings will likely change.
-
 
 ## Format
 
@@ -108,7 +140,7 @@ Obviously, their is a much smaller prize pool for this tier, and it can be a lot
 
 ## QA / Gas / Informational
 
-As of August 18th, 2023, CodeHawks no longer accepts gas/qa/informational findings.
+As of August 18th, 2023, CodeHawks no longer accepts gas/qa/informational findings. We are workshoping a new model for gas competitions. Stay tuned! 
 
 ## Selected Finding
 
@@ -116,12 +148,23 @@ When there are duplicate findings, for the final report, the judges will choose 
 
 The selected written report will be awarded 1.4x their number of shares on that finding. 
 
+# Payouts
+
+We use [wentokens](https://www.wentokens.xyz/) to pay out rewards. It is a gas efficient airdrop platform. 
+
 # Who judges?
 
-As of V0.1, the [Cyfrin](https://www.cyfrin.io/) team exclusively judges the audits. We are working on a decentralized judging model to prevent bias. The Cyfrin team is not allowed to participate in audit competitions due to this. 
+As of V0.1, the [Cyfrin](https://www.cyfrin.io/) team and an invited judge, judges the audits. We are working on a community based judging model to prevent bias moving forward. 
 
-At the moment, there is no escalation period. We will be iterating on this process as the protocol grows. 
+# Preliminary Results 
 
+After the competition, the judges will release preliminary results. This is to give the auditors a chance to appeal the judges decisions.
+
+# Appeals 
+
+For every competition, we will have a 2 day appeals/escalation process, where you can appeal the judges decisions. 
+
+For appeals, you will have 1 shot to post a message about why your finding's severity, grouping, or selected tag should be changed.
 
 # Severity Examples
 
