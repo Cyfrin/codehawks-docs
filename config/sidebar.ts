@@ -37,6 +37,10 @@ export default {
                     to: '/rewards-and-judging/'
                 },
                 {
+                    title: "CodeHawks XP",
+                    to: '/codehawks-xp/'
+                },
+                {
                     title: "Learning & Resources",
                     to: '/learning-and-resources/'
                 }
