@@ -178,7 +178,7 @@ After the competition, the judges will release preliminary results. This is to g
 
 # Appeals 
 
-For every competition, we will have a 2 day appeals/escalation process, where you can appeal the judges decisions. 
+For every competition, we will have a 2 day appeals process, where you can appeal the judges decisions. 
 
 For appeals, you will have 1 shot to post a message about why your finding's severity, grouping, or selected tag should be changed.
 
