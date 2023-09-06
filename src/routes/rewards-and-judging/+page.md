@@ -116,6 +116,10 @@ Med Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount
 High Risk Shares: 5 * (0.9 ^ (findingCount - 1)) / findingCount
 ```
 
+A `share` represents your cut of the prize pool. If you get 5 shares, and there are a total of 10 shares in a $10,000 pool, you get $5,000.
+
+Your final payout will be rounded down to 2 decimal places. 
+
 *This is likely to change in the future.*
 
 ## Example
