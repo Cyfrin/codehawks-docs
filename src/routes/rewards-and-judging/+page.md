@@ -43,6 +43,22 @@ Keep in mind, there are some events where the likelihood is considered "computat
 
 In such cases, it's on the finding audthor to prove that their finding is computational feasible. 
 
+## Duplicates
+
+An issue is considered a duplicate if they have the same `root cause`. For example, the following two issues are duplicates:
+
+- `No zero address check results in loss of funds: high`
+- `Users can lose precision when it doesn't check for address(0): low`
+
+These both have the same `root cause` even though they are submitted as different severity, and are considered duplicates.
+
+The following are not considered duplicates:
+
+- `Users can lose precision when it doesn't check for address(0): low`
+- `Multiply before divide loses precision: low`
+
+Since they have different route causes (checking the zero address vs dividing before multiplying), they are not considered duplicates.
+
 ## Subjectivity 
 
 There is some subjectivity when it comes to these categories, and it's up to the judges discretion to determine the category.
