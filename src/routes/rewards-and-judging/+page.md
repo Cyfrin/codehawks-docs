@@ -105,7 +105,6 @@ You must submit within the competition window. Any submissions outside the windo
 
 ChatGPT & AI are great tools to help you find bugs, but automatically making submissions based solely or mainly on an AIs response has proven to create mostly poor reports. If you are suspected of doing so you will be disqualified. 
 
-
 # Payouts
 
 ## High / Medium Findings
@@ -118,7 +117,7 @@ High Risk Shares: 5 * (0.9 ^ (findingCount - 1)) / findingCount
 
 A `share` represents your cut of the prize pool. If you get 5 shares, and there are a total of 10 shares in a $10,000 pool, you get $5,000.
 
-Your final payout will be rounded down to 2 decimal places. 
+Your final payout will be rounded down to 2 decimal places. So if your payout is $0.003, you will get $0.00.
 
 *This is likely to change in the future.*
 
