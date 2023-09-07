@@ -32,16 +32,18 @@ Likelihood is the probability of the impact occuring. Likelihood can be "high", 
 
 - High
   - Highly likely to happen. (ex: A hacker can call a function directly and get money)
+  - Anyone can execute the attack (ex: does not require a trusted / privileged actor)
 - Medium
   - It might happen (ex: A specific weird ERC20 is used on a platform)
+  - May involve a trusted / privileged actor (ex: owner is trusted & can perform an action that the code attempts to restrict them from doing)
 - Low
   - Unlikely to happen. (ex: If a difficult to change variable is set to a certain value on a very specific singular block)
 
-Keep in mind, there are some events where the likelihood is considered "computational infeasible" and do not count as low. An example would be:
+Keep in mind, there are some events where the likelihood is considered "computationally infeasible" and do not count as low. An example would be:
 
 "An attack could guess the users private key".
 
-In such cases, it's on the finding audthor to prove that their finding is computational feasible. 
+In such cases, it's on the finding author to prove that their finding is computationally feasible. 
 
 ## Duplicates
 
@@ -57,7 +59,7 @@ The following are not considered duplicates:
 - `Users can lose precision when it doesn't check for address(0): low`
 - `Multiply before divide loses precision: low`
 
-Since they have different route causes (checking the zero address vs dividing before multiplying), they are not considered duplicates.
+Since they have different route causes (checking the zero address vs dividing before multiplying), they are not considered duplicates. The same root cause may yield multiple interesting & creative attack paths which can damage a protocol in different ways; in such cases judges may choose to award each attack path separately.
 
 ## Subjectivity 
 
@@ -68,6 +70,27 @@ If the protocol specifically states some different criteria, then that is what s
 At the start of each competition, the [4naly3er](https://github.com/Picodes/4naly3er) tool will be run, and all findings associated with this tool are inelligible for rewards.
 
 As CodeHawks evolves, this basis for findings will likely change.
+
+## Contest-Specific Issue Validity Guidelines
+
+There are two ultimate standards for determining whether an issue is valid within the context of a specific contest: the official written contest specification on CodeHawks and the code under audit in the contest.
+
+After a contest has launched, Sponsors have 48 hours to clarify ambiguities which may be raised by auditors in discord. Once this 48 hour window has elapsed, the official written contest specification on CodeHawks will be updated with answers from the Sponsor and this updated specification will form the ultimate standard for determining whether an issue is valid or not within the context of the specific contest. After the 48hr window has elapsed, Sponsors are strictly forbidden from using the ["Moving The Goalposts" logical fallacy](https://youtu.be/KeswYJgf5mM?feature=shared&t=19) to invalidate submissions.
+
+Judges & Sponsors may only invalidate a submission if it is invalid according to:
+- the official written contest specification on CodeHawks (ex: the contest spec explicitly rules out an attack because it says an actor is trusted)
+- the code under audit in the contest (ex: the attack doesn't work as the auditor claims)
+- the general CodeHawks Validity guidelines (ex: this document)
+
+Unless explicitly stated in the official written contest specification, Judges & Sponsors may not invalidate an issue by appealing to off-chain components or processes which are not under audit by claiming that these would have stopped an attack which is allowed by the code under audit. Usage of the ["Ad Hoc Rescue" logical fallacy](https://www.youtube.com/watch?v=XGeR9aQWipo) to invalidate submissions is strictly forbidden and a valid reason which satisfies these guidelines must always be given for judging a submission as invalid.
+
+## Vague Generalities
+
+Vague generalities are always judged as invalid submissions. Examples include:
+- "this function may have re-entrancy, add re-entrancy guard"
+- "this hash function may have hash collision, do the hashing a different way"
+
+If an auditor believes that a function has a vulnerability, it is their duty to weaponize that vulnerability into a proof of concept exploit that will cause significant damage to the system or permanent grief/denial of service. Even if the vague generality is proven true by another auditor submitting an actual exploit with PoC, only that other auditor will receive a reward - the vague generality submission will be marked as invalid. 
 
 ## Format
 
