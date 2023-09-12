@@ -59,7 +59,7 @@ The following are not considered duplicates:
 - `Users can lose precision when it doesn't check for address(0): low`
 - `Multiply before divide loses precision: low`
 
-Since they have different route causes (checking the zero address vs dividing before multiplying), they are not considered duplicates. The same root cause may yield multiple interesting & creative attack paths which can damage a protocol in different ways; in such cases judges may choose to award each attack path separately.
+Since they have different root causes (checking the zero address vs dividing before multiplying), they are not considered duplicates. The same root cause may yield multiple interesting & creative attack paths which can damage a protocol in different ways; in such cases judges may choose to award each attack path separately.
 
 ## Subjectivity 
 
@@ -91,6 +91,16 @@ Vague generalities are always judged as invalid submissions. Examples include:
 - "this hash function may have hash collision, do the hashing a different way"
 
 If an auditor believes that a function has a vulnerability, it is their duty to weaponize that vulnerability into a proof of concept exploit that will cause significant damage to the system or permanent grief/denial of service. Even if the vague generality is proven true by another auditor submitting an actual exploit with PoC, only that other auditor will receive a reward - the vague generality submission will be marked as invalid. 
+
+## Human Error
+
+Findings that involve human error where users call functions with incorrect inputs will in most cases be judged as invalid submissions. Examples include:
+- "user sends tokens to the contract address by mistake, their tokens are stuck, implement a rescue function"
+- "owner calls function with incorrect parameter, something bad happens"
+
+Similarly off-chain human issues will in most cases also be judged as invalid submissions, for example:
+- "user dies and their private keys are lost, funds are stuck forever"
+- "owner in a coma, owner-specific functions can't be called, need a backup owner"
 
 ## Format
 
