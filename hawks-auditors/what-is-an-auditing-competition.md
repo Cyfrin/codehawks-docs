@@ -16,7 +16,7 @@ The contest details page (accessible by clicking 'view') is filled with valuable
 
 * [Prize pool](payouts.md) severity break downs
 * Start and End dates
-* [nSLOC](broken-reference) and Scope
+* [nSLOC](../glossary.md) and Scope
 * Scoring
 
 Don't want to miss any of our competitions announcements? Make sure to follow us on [Twitter](https://twitter.com/CyfrinAudits?s=20) and join our [Discord](https://discord.gg/cyfrin) server!
@@ -27,19 +27,19 @@ The official start of the competition. From this point, participants can access 
 
 We'll be hosting a Live Kick-Off stream for each contest to introduce the code base and interview sponsors, so don't miss those on our [YouTube Channel](https://www.youtube.com/channel/UCwlGG-aBeR95seT49XetR8A)!
 
-### 3. Auditing period
+### 3. [**Auditing Period**](how-to-write-and-submit-a-finding.md)
 
 * Auditors delve deep into the provided smart contract(s), using their expertise to uncover vulnerabilities, inefficiencies, and other issues and recommendations. These findings are submitted to judges for assessment in the next phase.
 * This period is time-bound, ensuring a level playing field.
 * The amount of time allotted for a competition is largely determined by the size of the code base being audited
 
-**4.** [**Judging Period**](broken-reference)
+**4.** [**Judging Period**](../judging/the-judging-process.md)
 
 * Once the auditing period concludes, the _CodeHawks_ team or appointed judges will review the submissions. This is to validate the findings, rank them based on severity, and prepare for the next phase.
 * Length of this period is largely determined by number of submissions received.
 * Community Judging models are being created to speed up the judging process and afford opportunities for auditor community feedback.
 
-### 5. [**Escalation Period**](broken-reference)
+### 5. [**Escalation Period**](../judging/appeals.md)
 
 * For **48 hours** following the completion of initial judging, auditors can raise concerns or objections about the decisions made during the judging phase. It’s a window for the community to ensure transparency and fairness.
 
