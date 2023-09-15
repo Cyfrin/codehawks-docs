@@ -14,7 +14,7 @@ This will be clearly communicated via announcements on [Twitter](https://twitter
 
 ### The Judging Panel
 
-**Current Model**: At present, the Cyfrin team is solely responsible for evaluating the audits.
+**Current Model**: At present, the Cyfrin team is largely responsible for evaluating the audits, on occasion a reputable and esteemed member of the community may be invited to assist in judging.
 
 **Future Innovations**: We're diligently working towards introducing a decentralized judging model (Community Judging). This model aims to eliminate any potential biases as well as open source the assessments of submitted vulnerabilities.
 
