@@ -71,11 +71,13 @@ A day or so after the appeal period ends, the CodeHawks team, will compile and m
 
 ### 8. Mitigation phase - Fix the code
 
-First, our teams will agree on a suitable timeframe to tackle these issues.&#x20;
+First, our teams will agree on a suitable time frame to tackle these issues.&#x20;
 
 Once we've set the time, your team can start implementing the necessary fixes in your code base. It's crucial to ensure that these vulnerabilities are addressed promptly and effectively to enhance the security of your systems.&#x20;
 
-Working together, we'll make sure to strengthen your code and safeguard your applications against potential threats.
+Additionally, you may opt for a Mitigation Review Contest, following your initial audit to verify your implementations. These are much faster than the initial audit phase!
+
+Through these steps, you'll be sure to strengthen your code and safeguard your applications against potential threats.
 
 ### 9. Final report
 
