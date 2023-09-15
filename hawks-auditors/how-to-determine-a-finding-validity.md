@@ -1,7 +1,5 @@
 # How to Determine a Finding Validity
 
-### WAITING VETTING OF VALID ISSUE CATEGORIES BY JUDGES
-
 A finding represents a vulnerability in the codebase, they are separated _loosely_ into 3 categories of severity:
 
 * **High**
@@ -30,7 +28,7 @@ After a contest launch, Sponsors have 48 hours to address any ambiguities raised
 
 _Sponsors are strictly prohibited from employing the "_[_Moving The Goalposts_](https://youtu.be/KeswYJgf5mM?feature=shared\&t=19)_" logical fallacy to invalidate submissions after this 48-hour period._&#x20;
 
-Judges and Sponsors may only invalidate a submission if it fails to meet the contest's predefined criteria:\
+Judges and Sponsors may only invalidate a submission if it fails to meet the contest's predefined criteria.\
 
 
 #### Vague Generalities
