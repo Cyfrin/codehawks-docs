@@ -79,18 +79,7 @@ Working together, we'll make sure to strengthen your code and safeguard your app
 
 ### 9. Final report
 
-Post-fix review, our team will meticulously review your code once more to compile a detailed final report, ensuring all the fixes have been implements and your code is ready to be shipped. \
-
-
-### 10. Long term coverage
-
-Smart contracts are a rapidly evolving world, and with them, it is keeping them secured.&#x20;
-
-Once we'll have made sure your code is ready to serve hundreds thousands of users, our team will always be available to advise and help you keep your code safe and reliable over time.
-
-
-
-Now that you have a full overview of how our Auditing process looks like - it's time to request your audit, and have a chat on how our team can help you getting up and running.
+Post-fix review, our team will meticulously review your code once more to compile a detailed final report, ensuring all the fixes have been implements and your code is ready to be shipped.&#x20;
 
 
 
