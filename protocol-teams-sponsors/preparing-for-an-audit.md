@@ -12,6 +12,12 @@ Here's an high level overview of what you'll need to get your codebase full secu
 
 * Submit an auditing request on CodeHawks.com, filling the [Request an Audit](https://cyfrin.typeform.com/to/G97TcPPk?typeform-source=www.codehawks.com) form
 * Prepare your code for review following this  [Audit Requirements Checklist](https://docs.google.com/document/d/10\_t7Kt814Otp-FMFK8mvCsxb3tX3wyu1Z9V4nhZxTY8/edit?usp=sharing)[ ](https://cobalt-cornet-6a5.notion.site/CodeHawks-Audit-Preparation-Checklist-for-Protocols-236e1fad2fd64bc485f130ea75749a9e?pvs=4)- this will ensure your code has high test coverage and good formatting to help our auditors focusing on what really matters, and your protocol to get audited faster.
+* View the contest README example and submit your own using this template. This README will outline important contest and protocol details. The template is, available here:
+
+{% file src="../.gitbook/assets/README TEMPLATE.md" %}
+Contest README Example/Template
+{% endfile %}
+
 * Join our [Discord](https://discord.gg/cyfrin) server \
 
 
