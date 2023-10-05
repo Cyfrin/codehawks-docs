@@ -27,7 +27,7 @@ Understanding the differences between competitive and private smart contract aud
 
 Competitive audits bring the benefit of volume, with many eyes on your project. However, the expertise level can vary. \
 \
-Private audits on the other hand provide a more personalised approach, ensuring consistent quality and more in-depth support to your team to ensure best practices are followed throughout the whole project, but perhaps not the sheer volume of feedback.
+Private audits on the other hand provide a more personalized approach, ensuring consistent quality and more in-depth support to your team to ensure best practices are followed throughout the whole project, but perhaps not the sheer volume of feedback.
 
 **Recommendation**: Ideally, projects should consider leveraging both types of audits to get the comprehensive coverage and insights they need.
 
@@ -47,5 +47,5 @@ Whether you're leaning towards competitive or private audits, CodeHawks and Cyfr
 * **Cyfrin**: Dedicated, in-depth analysis with consistent expertise to guide your project from inception to deployment.\
 
 
-🔍 **Want an in-depth, consultative review?** [Reach out for CodeHawks Private Audit](https://chat.openai.com). \
-🚀 **Looking for comprehensive, crowd-sourced insights?** [Submit your project to Cyfrin's Competitive Auditing Platform](https://chat.openai.com).
+🔍 **Want an in-depth, consultative review?** [Reach out for CodeHawks Private Audit](https://cyfrin.typeform.com/to/yDUg5DK3?typeform-source=0dwqu1zc3qs.typeform.com). \
+🚀 **Looking for comprehensive, crowd-sourced insights?** [Submit your project to Cyfrin's Competitive Auditing Platform](https://cyfrin.typeform.com/to/G97TcPPk?typeform-source=www.codehawks.com).
