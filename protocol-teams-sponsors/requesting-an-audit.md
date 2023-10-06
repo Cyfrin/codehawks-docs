@@ -6,7 +6,7 @@ Here's a quickstart guide to kick off your auditing journey:
 
 * Complete the "[Request an Audit](https://cyfrin.typeform.com/to/G97TcPPk?typeform-source=www.codehawks.com)" form.
 * Schedule your audit with at least 3 days' notice.
-* Await our response! We'll be in touch within two days.
+* Await our response! Our experts will get in touch with your team ASAP.
 
 ### 2. Screening & Assessment
 
