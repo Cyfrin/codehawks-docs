@@ -4,8 +4,7 @@ Here's a quickstart guide to kick off your auditing journey:
 
 ### 1. Request an Audit
 
-* Visit [codehawks.com](https://codehawks.com/).
-* Navigate to “Request Audit” and complete the "[Request an Audit](https://cyfrin.typeform.com/to/G97TcPPk?typeform-source=www.codehawks.com)" form.
+* Complete the "[Request an Audit](https://cyfrin.typeform.com/to/G97TcPPk?typeform-source=www.codehawks.com)" form.
 * Schedule your audit with at least 3 days' notice.
 * Await our response! We'll be in touch within two days.
 
