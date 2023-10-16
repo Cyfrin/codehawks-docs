@@ -49,7 +49,7 @@ Joining a CodeHawks First Flight is the same as joining a proper auditing compet
 
 ***
 
-### How CodeHawks First Flight Work
+### How CodeHawks First Flights Work
 
 **Subscribe to and join the competition kickoff**
 
