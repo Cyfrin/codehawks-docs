@@ -4,7 +4,7 @@ CodeHawks First Flights is a flagship initiative, designed to introduce the next
 
 It goes beyond the traditional learning process by offering a format for emerging auditors to gain hands-on experience with real-world web3 security audits and **receive feedback and advice on findings and reports.**
 
-We've createdCodeHawks First Flight to given everyone willing to get into Smart Contract security a ground to learn, network, get feedback, and test their skills
+We've created CodeHawks First Flights to give everyone willing to get into Smart Contract security a ground to learn, network, get feedback, and test their skills
 
 If you're just getting started, and want to learn web3 development, or smart contract security - join us on [web3education.dev](https://web3education.dev/)
 
