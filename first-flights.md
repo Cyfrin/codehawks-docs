@@ -10,6 +10,8 @@ If you're just getting started, and want to learn web3 development, or smart con
 
 <figure><img src=".gitbook/assets/First Flights (1).png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ### What is a CodeHawks First Flight?
 
 First Flights are **7 days long** smart contracts auditing challenges characterised by smaller codebases and different rewards mechanisms from our standard smart contract auditing competitions, making them the perfect testing and learning ground for any aspirant smart contract security auditor.
@@ -18,9 +20,11 @@ Every week a new First Flight is announced and will be available on the codehawk
 
 Differently from the CodeHawks smart contract auditing competitions, First Flights do not come with monetary prize pools but grant participants a multiplier on the [Experience](hawks-auditors/how-does-xp-work.md) earned by submitting findings.&#x20;
 
+***
+
 ### Why joining a First Flight
 
-**The ultimate learning opportunity for aspira Smart Contract auditors**
+**The ultimate learning opportunity for aspirant Smart Contract auditors**
 
 Engage in a new challenge every week, ensuring constant exposure to different scenarios and learning from real world use cases and experts code bases.
 
@@ -32,6 +36,8 @@ The complexity of each Flight increases over time, ensuring that participants ar
 
 While there is no monetary prize, participants are rewarded with double the XP for every vulnerability discovered, recognising their efforts towards self-improvement.
 
+***
+
 ### How to Join a CodeHawks First Flight
 
 Joining a CodeHawks First Flight is the same as joining a proper auditing competition:
@@ -41,7 +47,9 @@ Joining a CodeHawks First Flight is the same as joining a proper auditing compet
 3. When the First Flight starts you'll be notified via email, on the platform, and on our [Twitter](https://twitter.com/codehawks)
 4. The contest's code will be made public and you'll be able to start analysing, testing, and auditing the codebase in scope!
 
-### Stages of a CodeHawks First Flight
+***
+
+### How CodeHawks First Flight Work
 
 **Subscribe to and join the competition kickoff**
 
