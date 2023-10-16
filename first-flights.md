@@ -1,4 +1,4 @@
-# First Flights
+# 🦅 First Flights
 
 CodeHawks First Flights is a flagship initiative, designed to introduce the next generation of web3 developers to security audits.
 
@@ -8,7 +8,7 @@ We've createdCodeHawks First Flight to given everyone willing to get into Smart 
 
 If you're just getting started, and want to learn web3 development, or smart contract security - join us on [web3education.dev](https://web3education.dev/)
 
-<figure><img src="../.gitbook/assets/First Flights (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/First Flights (1).png" alt=""><figcaption></figcaption></figure>
 
 ### What is a CodeHawks First Flight?
 
@@ -16,7 +16,7 @@ First Flights are **7 days long** smart contracts auditing challenges characteri
 
 Every week a new First Flight is announced and will be available on the codehawks.com platform to join for 7 days.
 
-Differently from the CodeHawks smart contract auditing competitions, First Flights do not come with monetary prize pools but grant participants a multiplier on the [Experience](how-does-xp-work.md) earned by submitting findings.&#x20;
+Differently from the CodeHawks smart contract auditing competitions, First Flights do not come with monetary prize pools but grant participants a multiplier on the [Experience](hawks-auditors/how-does-xp-work.md) earned by submitting findings.&#x20;
 
 ### Why joining a First Flight
 
@@ -55,20 +55,20 @@ Joining a CodeHawks First Flight is the same as joining a proper auditing compet
 **Identify vulnerabilities and submit findings like a real auditor**
 
 * Participants will have to review the smart contract codebase looking for bugs and potential exploit vectors
-* After identifying vulnerabilities, participants will have to [write a PoC](how-to-write-a-poc.md) and  [submit their findings](how-to-write-and-submit-a-finding.md)
+* After identifying vulnerabilities, participants will have to [write a PoC](hawks-auditors/how-to-create-and-submit-a-poc.md) and  [submit their findings](hawks-auditors/how-to-write-and-submit-a-finding.md)
 * A live submission portal is available, offering the same, authentic experience of our standard CodeHawks competitive audits submission process.\
 
 
 **Receive feedback, learn faster**
 
-* A judge will thoroughly review and test every finding [evaluating validity](how-to-determine-a-finding-validity.md) and confirming or adjusting the severity level
-* After the [judging phase](../judging/the-judging-process.md), participants have the opportunity to [appeal](../judging/appeals.md) the judge's decisions.
+* A judge will thoroughly review and test every finding [evaluating validity](hawks-auditors/how-to-determine-a-finding-validity.md) and confirming or adjusting the severity level
+* After the [judging phase](judging/the-judging-process.md), participants have the opportunity to [appeal](judging/appeals.md) the judge's decisions.
 * Receive direct feedback on your submissions and use this feedback to improve.\
 
 
 **Celebrate your achievements**
 
-* Upon finalization of results, [XP points](how-does-xp-work.md) are awarded.
+* Upon finalization of results, [XP points](hawks-auditors/how-does-xp-work.md) are awarded.
 * As participants accumulate XP, they can rise through the ranks on the leaderboards and gain recognition for their expertise.
 
-Not feeling ready to join a CodeHawks First Flight? Checkout our [learning resources](../learning-and-resources.md) and start creating your account on [codehawks.com](https://codehawks.com)
+Not feeling ready to join a CodeHawks First Flight? Checkout our [learning resources](learning-and-resources.md) and start creating your account on [codehawks.com](https://codehawks.com)

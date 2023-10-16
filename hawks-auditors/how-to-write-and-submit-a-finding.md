@@ -49,5 +49,5 @@ An insufficient proof is when a judge needs to invest additional time in researc
 
 _Submissions deemed to lack sufficient evidence may risk invalidation._
 
-Refer to our [How to create a PoC guide](how-to-write-a-poc.md) to learn how to get the most our of your reports.
+Refer to our [How to create a PoC guide](how-to-create-and-submit-a-poc.md) to learn how to get the most our of your reports.
 

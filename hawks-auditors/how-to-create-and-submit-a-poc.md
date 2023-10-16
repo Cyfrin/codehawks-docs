@@ -1,4 +1,4 @@
-# How to create and submit a PoC
+# How to Write a PoC
 
 A Proof of Concept (PoC) is a demonstration that showcases the feasibility of a concept or idea. In the context of smart contract auditing, a PoC is used to demonstrate a vulnerability or flaw in a smart contract. A well-crafted PoC can help developers understand the vulnerability and its implications, making it easier for them to address the issue.
 

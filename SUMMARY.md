@@ -20,12 +20,11 @@
 * [What is an Auditing Competition?](hawks-auditors/what-is-an-auditing-competition.md)
 * [The Kick-Off Period](hawks-auditors/the-kick-off-period.md)
 * [How to Write and Submit a Finding](hawks-auditors/how-to-write-and-submit-a-finding.md)
-* [How to Write a PoC](hawks-auditors/how-to-write-a-poc.md)
+* [How to Write a PoC](hawks-auditors/how-to-create-and-submit-a-poc.md)
 * [How to Determine a Finding Validity](hawks-auditors/how-to-determine-a-finding-validity.md)
 * [How to Evaluate a Finding Severity](hawks-auditors/how-to-evaluate-a-finding-severity.md)
 * [Payouts](hawks-auditors/payouts.md)
 * [How Does XP Work?](hawks-auditors/how-does-xp-work.md)
-* [First Flights](hawks-auditors/first-flights.md)
 
 ## 👩⚖ Judging
 
@@ -35,6 +34,7 @@
 
 ***
 
+* [🦅 First Flights](first-flights.md)
 * [💡 Philosophy and Mission](philosophy-and-mission.md)
 * [🛠 Tools](tools.md)
 * [📚 Learning and resources](learning-and-resources.md)
