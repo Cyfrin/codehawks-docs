@@ -28,11 +28,33 @@ Welcome to the CodeHawks XP System documentation page. Our XP system is designed
 
 2. **Team Submissions**:
    * If you're in a team, all members earn XP for valid submissions by the team.
-   * There's a scaling mechanism for fairness:
-     * Teams of ≤5 : Each member earns 100% XP
-     * Team of 6 : Each member earns 90% XP
-     * Team of 7 : Each member earns 80% XP
-     * ... so on till Teams of 10+ where each member earns 50% XP
+   *   There's a scaling mechanism for fairness:
+
+       * Teams of ≤5 : Each member earns 100% XP
+       * Team of 6 : Each member earns 90% XP
+       * Team of 7 : Each member earns 80% XP
+       * ... so on till Teams of 10+ where each member earns 50% XP
+
+
+3. **First Flights**:
+   * XP awarded for First Flight submissions will received a 2x modifier:
+     * Gas: 2 XP
+     * Low: 4 XP
+     * Medium: 40 XP
+     * High: 200 XP
+   * A contest's 'selected' finding will receive a further boost of 1.4x
+
+***
+
+#### Difficulty Multipliers
+
+For contests in which few submissions are received, a modifier to XP rewards will be levied as follows:
+
+* **<=50** valid submissions: 3x bonus  XP
+* **<=150** valid submissions: 2x bonus XP
+* **151+** valid submission: Default XP
+
+This is meant to reward those who persevere through the most difficult contests and secure the most complex protocols.
 
 ***
 
