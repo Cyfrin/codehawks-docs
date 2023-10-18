@@ -22,7 +22,7 @@ Differently from the CodeHawks smart contract auditing competitions, First Fligh
 
 ***
 
-### Why joining a First Flight
+### Why Join a First Flight?
 
 **The ultimate learning opportunity for aspirant Smart Contract auditors**
 
