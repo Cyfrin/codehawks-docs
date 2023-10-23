@@ -4,13 +4,11 @@ description: Become a part of our quest for Securing Blockchain and Get Rewarded
 
 # 🤝 Referrals program
 
-
-
 Welcome to the CodeHawks Referrals Program! We invite you to embark on an exciting journey with us, where you can earn by connecting companies to our state-of-the-art auditing services.
 
 ### Overview
 
-The CodeHawks referral program is designed to bridge the gap between pre-deployment protocols, organizations, and our top-notch Security researchers.&#x20;
+The CodeHawks referral program is designed to bridge the gap between pre-deployment protocols, organizations, and our top-notch Security researchers.
 
 By referring to us, you can earn a handsome share of our fee – 15% to be exact!
 
@@ -34,7 +32,7 @@ By referring to us, you can earn a handsome share of our fee – 15% to be exact
 #### Payment Details
 
 * Payments will be released post the complete payment for an auditing contest.
-* It's vital that the company cites your reference during the process to ensure seamless payment.&#x20;
+* It's vital that the company cites your reference during the process to ensure seamless payment.
 * Payments will be processed in USDC.
 
 ### Making an Impact
@@ -53,5 +51,3 @@ By joining the CodeHawks Referrals Program, you're not just earning but also:
 ### Have Questions?
 
 We're here to assist! For any inquiries or further clarifications, don't hesitate to join our [Discord](https://discord.gg/cyfrin) server or send us a message on [Twitter](https://twitter.com/CodeHawks).
-
-🌐 [**Start Your Referral Journey with CodeHawks Now!**](https://cyfrin.typeform.com/to/G97TcPPk?typeform-source=www.codehawks.com)
