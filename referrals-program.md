@@ -52,6 +52,6 @@ By joining the CodeHawks Referrals Program, you're not just earning but also:
 
 ### Have Questions?
 
-We're here to assist! For any inquiries or further clarifications, don't join our [Discord](https://discord.gg/cyfrin) server or send us a message on [Twitter](https://twitter.com/CodeHawks).
+We're here to assist! For any inquiries or further clarifications, don't hesitate to join our [Discord](https://discord.gg/cyfrin) server or send us a message on [Twitter](https://twitter.com/CodeHawks).
 
 🌐 [**Start Your Referral Journey with CodeHawks Now!**](https://cyfrin.typeform.com/to/G97TcPPk?typeform-source=www.codehawks.com)
