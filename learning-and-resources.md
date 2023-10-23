@@ -33,6 +33,14 @@ These are educational content to get you up to speed with solidity & smart contr
 * [Andy Li](https://www.youtube.com/@andyli)
 * [Secureum](https://secureum.substack.com/)
 
+### CTF (Capture The Flag)
+
+These are minigames that help you learn smart contract auditing.
+
+- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
+- [EtherHack](https://etherhack.positive.com/#/)
+- [The Ethernaut](https://ethernaut.openzeppelin.com/)
+
 ### Newsletters
 
 * [Blockchain Threat Intelligence](https://newsletter.blockthreat.io/)
