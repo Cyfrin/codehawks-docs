@@ -37,11 +37,7 @@ Welcome to the CodeHawks XP System documentation page. Our XP system is designed
 
 
 3. **First Flights**:
-   * XP awarded for First Flight submissions will received a 2x modifier:
-     * Gas: 2 XP
-     * Low: 4 XP
-     * Medium: 40 XP
-     * High: 200 XP
+   * XP for First Flights is the same distribution by severity as a regular audit.
    * A contest's 'selected' finding will receive a further boost of 1.4x
 
 ***
