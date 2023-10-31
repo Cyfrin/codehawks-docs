@@ -20,8 +20,15 @@ Once the preliminary results are made public, an **Appeal Period** of exactly 2 
 
 To initiate an appeal:
 
-1. Navigate to your judged submission on GitHub.
-2. Comment with detailed concerns or points of contention.
+1. Navigate to your judged submission on the CodeHawks Portal through 'My Findings'.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>CodeHawks Menu Dropdown</p></figcaption></figure>
+
+2. Comment, in the provided comment box, with detailed concerns or points of contention.\
+
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 3. Clearly state why you believe your issue is valid. If you're challenging other entries, provide concise reasoning for any discrepancies identified.
 
 **Low effort appeals risk being disregarded.**

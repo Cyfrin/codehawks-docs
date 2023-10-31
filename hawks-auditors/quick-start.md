@@ -13,7 +13,7 @@ description: CodeHawks Quick Start Guide for Auditors
     * Visit [CodeHawks.com](http://codehawks.com).
       * Click on the prominent "Become a Hawk" button.
 
-    <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
     * Fill out the profile information to get started.
 

@@ -22,9 +22,11 @@ This will be clearly communicated via announcements on [Twitter](https://twitter
 
 ### Judging Interactions
 
-**GitHub Submissions**: Once judging begins, interactions on submitted GitHub issues will be temporarily disabled.
+**Contest Submissions**: Once judging begins, further submissions through the CodeHawks Audit Portal will be disabled
 
-**Feedback and Comments**: Judges will provide detailed comments on each submission, clarifying their decisions and reasonings.
+**Feedback and Comments**: Judges will provide detailed comments on each submission, clarifying their decisions and reasonings. These will be revealed for consideration **only** once the [appeals ](appeals.md)phase begins.
+
+**Descriptive Tags:** Judges will also be leaving descriptive tags of the finding on each valid submission.
 
 ### Standards for Validity
 

@@ -15,7 +15,7 @@ Last year, **6% of the Total Value Locked (TVL) in DeFi was stolen**, resulting 
 On top of that, the process of finding, hiring, and working with expert and reliable auditors has, until now, been extremely rudimental. Protocols were forced to perform word-of-mouth research, with low to zero possibility of ensuring the quality of their audits. \
 
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 **CodeHawks solves this** by bridging together top-notch Blockchain security experts and Protocols in an eco-system built to create security in web3.&#x20;
 
