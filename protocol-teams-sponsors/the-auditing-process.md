@@ -28,7 +28,7 @@ Check out our [guidelines for more information on what is required to start an a
 
 The CodeHawks team will conduct an initial assessment of your code base and project, and provides you with a quote based on the length of time required for the audit and its complexity.
 
-You can learn more about[ pricing and timelines on our guide.](the-auditing-process.md#3.-pricing-and-timelines)
+You can learn more about [pricing and timelines on our guide](audit-pricing-and-timelines.md).
 
 ### 4. Code Freeze
 

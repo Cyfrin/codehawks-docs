@@ -17,7 +17,7 @@ Here's a quickstart guide to kick off your auditing journey:
 ### 3. Understand Pricing & Timelines
 
 * After the initial assessment, we'll provide a tailored quote and timelines for your protocol.
-* Review our [pricing and timelines guide](https://chat.openai.com)[ ](audit-pricing-and-timelines.md)for detailed insights.
+* Review our [pricing and timelines guide](audit-pricing-and-timelines.md)[ ](audit-pricing-and-timelines.md)for detailed insights.
 
 ### 4. Prepare for the Audit
 
