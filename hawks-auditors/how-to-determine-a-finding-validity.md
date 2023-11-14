@@ -46,32 +46,27 @@ For detailed instructions on what to include and how to submit a finding, please
 
 To determine the validity of a finding, we provide a number of issue categories as a guideline. Please note that final determinations will always be at the discretion of the Judge.
 
+### Findings that may be invalid
 
+The following is a high level list of issues which are usually not considered valid\
+\
+**Note:** **this table is meant as a rough guide only and does not represent concrete policy. Each issue's validity may vary pending condition and circumstance. Final determinations are at the judge/protocol's discretion.**
 
-### Examples of findings not considered valid 
-
-The following is a high level list of issues which are usually not considered valid, or can be considered valid if respect certain characteristics:
-
-| Issue                                  | Description                                                                                                      | Validity          |
-| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Gas optimizations                      | Users/protocols may pay extra gas due to this issue.                                                             | Not valid         |
-| Zero address checks                    | Ensure input values are not zero addresses.                                                                      | Not valid         |
-| User input validation                  | If user input results in a major protocol malfunction or significant fund loss, it's a valid high.               | Varies            |
-| Admin Input/call validation            | Issues related to incorrect input by admins, call order mistakes, and assumptions breaking due to admin actions. | Not valid         |
-| Front-running initializers             | If there's no irreversible damage or fund loss & the protocol can redeploy and initialize again.                 | Not valid         |
-| User experience and design improvement | Minor inconveniences or design opinions with no clear loss of funds indication.                                  | Not valid         |
-| User Blacklist                         | A user being blacklisted causing harm only to themselves.                                                        | Not valid         |
-| Use of call vs transfer                | Gas price not being the same value of 2300 is a protocol choice.                                                 | Low/informational |
-| EIP compliance with no integrations    | If no external integrations exist and no adverse effects arise due to non-compliance with an EIP.                | Informational     |
-| Users sending ETH/native tokens        | If contracts allow users to send tokens accidentally.                                                            | Not valid         |
-| Loss of rewards                        | Losing airdrops, liquidity fees, or other rewards not in the protocol design.                                    | Not valid         |
-| Incorrect values in View functions     | Considered low by default, unless used in a larger function resulting in fund loss.                              | Varies            |
-| Chainlink round completeness           | OCR doesn't rely on rounds for reporting.                                                                        | Not valid         |
-| Update contest issues                  | Issues from previous contests with `wont fix` labels.                                                            | Not valid         |
-| Mock contracts issues                  | Any issues found in mock contracts.                                                                              | Not valid         |
-| Slippage                               | Issues showing definite fund loss with a detailed explanation.                                                   | Valid high        |
-| EIP Compliance                         | Issues regarding EIP compliance with essential external integrations.                                            | Varies            |
-| Identifies the core issue              | Issues with many duplicates, but that pinpoint the core issue and show valid fund loss.                          | Varies            |
-| Out of Gas                             | Issues leading to Out of Gas errors due to malicious users or specific call flows.                               | Varies            |
+| Issue                                  | Description                                                                                                      |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Gas optimizations                      | Users/protocols may pay extra gas due to this issue.                                                             |
+| Zero address checks                    | Ensure input values are not zero addresses.                                                                      |
+| Admin Input/call validation            | Issues related to incorrect input by admins, call order mistakes, and assumptions breaking due to admin actions. |
+| Front-running initializers             | If there's no irreversible damage or fund loss & the protocol can redeploy and initialize again.                 |
+| User experience and design improvement | Minor inconveniences or design opinions with no clear loss of funds indication.                                  |
+| User Blacklist                         | A user being blacklisted causing harm only to themselves.                                                        |
+| EIP compliance with no integrations    | If no external integrations exist and no adverse effects arise due to non-compliance with an EIP.                |
+| Users sending ETH/native tokens        | If contracts allow users to send tokens accidentally.                                                            |
+| Loss of rewards                        | Losing airdrops, liquidity fees, or other rewards not in the protocol design.                                    |
+| Incorrect values in View functions     | Considered low by default, unless used in a larger function resulting in fund loss.                              |
+| Mock contracts issues                  | Any issues found in mock contracts.                                                                              |
+| Slippage                               | Issues showing definite fund loss with a detailed explanation.                                                   |
+| EIP Compliance                         | Issues regarding EIP compliance with essential external integrations.                                            |
+| Out of Gas                             | Issues leading to Out of Gas errors due to malicious users or specific call flows.                               |
 
 \
