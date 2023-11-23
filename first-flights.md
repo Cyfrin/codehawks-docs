@@ -16,7 +16,7 @@ If you're just getting started, and want to learn web3 development, or smart con
 
 First Flights are smart contract auditing challenges characterized by smaller codebases and different rewards mechanisms from our standard smart contract auditing competitions, making them the perfect testing and learning ground for any aspirant smart contract security auditor.
 
-A new First Flight is announced every month and will be available on the codehawks.com platform to participate in.
+A new First Flight is announced every month and will be available on the codehawks.com platform in which to participate.
 
 Differently from the CodeHawks smart contract auditing competitions, First Flights do not come with monetary prize pools but grant participants a multiplier on the [Experience](hawks-auditors/how-does-xp-work.md) earned by submitting findings.&#x20;
 
