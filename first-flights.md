@@ -18,7 +18,7 @@ First Flights are smart contract auditing challenges characterized by smaller co
 
 A new First Flight is announced every month and will be available on the codehawks.com platform in which to participate.
 
-Differently from the CodeHawks smart contract auditing competitions, First Flights do not come with monetary prize pools but grant participants a multiplier on the [Experience](hawks-auditors/how-does-xp-work.md) earned by submitting findings.&#x20;
+Differently from the CodeHawks smart contract auditing competitions, First Flights do not come with monetary prize pools but grant participants [Experience](hawks-auditors/how-does-xp-work.md) earned by submitting findings.&#x20;
 
 ***
 
