@@ -34,7 +34,7 @@ The complexity of each Flight increases over time, ensuring that participants ar
 
 **Earn CodeHawks XP and Climb the leaderboard**
 
-While there is no monetary prize, participants are rewarded with double the XP for every vulnerability discovered, recognising their efforts towards self-improvement.
+While there is no monetary prize, participants are rewarded with [CodeHawks XP](hawks-auditors/how-does-xp-work.md) for every vulnerability discovered, recognising their efforts towards self-improvement.
 
 ***
 
