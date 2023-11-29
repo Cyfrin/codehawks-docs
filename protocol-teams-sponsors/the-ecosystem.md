@@ -39,7 +39,7 @@ A strategic approach is limited to a selected and agreed-upon group of researche
 \
 This process is similar to a competitive audit, with the distinction being the participating auditors:&#x20;
 
-In a private competition, a select group of KYC'd auditors or auditing firms, pre-approved by the client, are invited to assess the smart contract, allowing protocols to choose auditors that align with their expectations and needs.\
+In a private competition, a selected group of KYC'd auditors or auditing firms, pre-approved by the client, are invited to assess the smart contract, allowing protocols to choose auditors that align with their expectations and needs.\
 \
 The underlying principle remains the same, with each auditor striving to deliver the most comprehensive report to secure you and your users.\
 \
