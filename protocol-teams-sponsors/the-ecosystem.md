@@ -35,11 +35,11 @@ Request information about the [Auditing Competition here](https://cyfrin.typefor
 
 In addition to the CodeHawks Competitive Audits, which has any security researcher focusing on your code base, we also provide exclusive closed-entry auditing competitions.\
 \
-A strategic approach limited to a selected and agreed-upon group of researchers who will be invited to review your code. **This ensures the highest quality and targeted evaluation of your code.**\
+A strategic approach is limited to a selected and agreed-upon group of researchers who will be invited to review your code. **This ensures the highest quality and targeted evaluation of your code.**\
 \
 This process is similar to a competitive audit, with the distinction being the participating auditors:&#x20;
 
-In a private competition, a select group of auditors or auditing firms, pre-approved by the client, are invited to assess the smart contract, allowing protocols to choose auditors that align with their expectations and needs.\
+In a private competition, a select group of KYC'd auditors or auditing firms, pre-approved by the client, are invited to assess the smart contract, allowing protocols to choose auditors that align with their expectations and needs.\
 \
 The underlying principle remains the same, with each auditor striving to deliver the most comprehensive report to secure you and your users.\
 \
