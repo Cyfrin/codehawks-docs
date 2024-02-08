@@ -2,26 +2,25 @@
 
 <!-- <br/>
 <p align="center">
-<img src="./logo.png" width="500" alt="project-name">
+<img src="./logo.png" width="500" alt="Ditto">
 </p>
 <br/> --> 
 
 
-# Contest Details
+## Contest Details **THESE WILL BE PREPENDED TO THE SUBMITTED README BY THE CYFRIN TEAM**
 
-### Prize Pool
+- Total Prize Pool: 
+  - HM Awards: 
+  - Low Awards: 
+  - GAS, Informational, or QAs Awards:
+- Starts 
+- Ends 
 
-- High - 100xp
-- Medium - 20xp
-- Low - 2xp
-
-- Starts: TBD
-- Ends: TBD
-
-### Stats
-
-- nSLOC: 
+## Stats **THESE WILL BE PREPENDED TO THE SUBMITTED README BY THE CYFRIN TEAM**
+- nSLOC:
 - Complexity Score:
+- Dollars per Complexity:
+- Dollars per nSLOC:
 
 ## About the Project
 
@@ -57,7 +56,7 @@ Actors:
 
 ## Scope (contracts)
 
-This section should give auditors a clear understanding of what files and directories are included within the scope of the contest. You can itemize every applicable file, or list particular folders or directories, but please be specific and thorough. This will server as an auditors ultimate reference point for what to focus on.
+This section should give auditors a clear understanding of what files and directories are included within the scope of the contest. You can itemize every applicable file, or list particular folders or directories, but please be specific and thorough. This will server as an auditors ultimate reference point for what to focus on. Please include a commit hash
 
 Example:
 ```

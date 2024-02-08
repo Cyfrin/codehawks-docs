@@ -35,6 +35,7 @@
 ***
 
 * [🦅 First Flights](first-flights.md)
+* [🫂 Community First Flights](community-first-flights.md)
 * [💡 Philosophy and Mission](philosophy-and-mission.md)
 * [🛠 Tools](tools.md)
 * [📚 Learning and resources](learning-and-resources.md)

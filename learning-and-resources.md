@@ -4,25 +4,19 @@ description: In order to stay ahead of the attackers, you need to be constantly 
 
 # 📚 Learning and resources
 
-### Educational Resources
+### Cyfrin Updraft
 
-This is our current suggestion for the end-to-end prerequiste to becoming a smart contract developer and auditor.
+[Cyfrin Updraft](https://updraft.cyfrin.io) is the ultimate learning platform for smart contract development and security auditing!&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=umepbfKp5rI" %}
+We've built curriculums for all levels and backgrounds, designed to bring in more engineers into the blockchain industry.
 
-### Smart Contract Education
+[Register here](https://updraft.cyfrin.io) and get access to Cyfrin Updraft for fee today!
 
-* [Hardhat & Solidity full course](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
-* [CryptoZombies](https://cryptozombies.io/)
-* [solidity-by-example](https://solidity-by-example.org/)
-* [Alchemy University](https://university.alchemy.com/)
-* [Speedrun Ethereum](https://speedrunethereum.com/)
-* [LearnWeb3DAO](https://learnweb3.io/)
-* [Patrick Collins YouTube](https://www.youtube.com/@PatrickAlphaC)
+<figure><img src=".gitbook/assets/CleanShot 2024-02-07 at 16.07.31@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Smart Contract Education
 
-These are educational content to get you up to speed with solidity & smart contracts.
+These are educational content to get you up to speed with Solidity & smart contracts.
 
 * [Symbolic Execution Breakdown](https://hackmd.io/@SaferMaker/EVM-Sym-Exec)
 * [Formal Verification Breakdown](https://www.youtube.com/watch?v=izpoxfTSaFs)
@@ -35,6 +29,6 @@ These are educational content to get you up to speed with solidity & smart contr
 
 ### Newsletters
 
+* [Smart contract security newsletter](https://cyfrin.io/newsletter), by Cyfrin
 * [Blockchain Threat Intelligence](https://newsletter.blockthreat.io/)
 * [Week in Ethereum](https://weekinethereumnews.com/)
-* [web3education.dev](https://web3education.dev/)

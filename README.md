@@ -6,9 +6,9 @@ You can find a brief overview of how CodeHawks works below. For a deep dive into
 
 ### The Problem CodeHawks Solves
 
-Digital value exchange enabled by Decentralised finance and smart contracts requires an outstanding level of security and best practices, which hasn't yet been reached.&#x20;
+Digital value exchange enabled by decentralised finance and smart contracts requires an outstanding level of security and best practices in order to reach mainstream adoption.&#x20;
 
-O_ver $250B are locked in the DeFi ecosystem, and in the past 6 months alone, over $1B are lost in more than 100 DeFi exploits. Earn up to 15% for every successful referral as a reward. Help your close associates in securing DeFi & NFT projects and earn a competitive commission for the same._\
+O_ver $250B are locked in the DeFi ecosystem, and in the past 6 months alone, over $1B are lost in more than 100 DeFi exploits._ \
 \
 Last year, **6% of the Total Value Locked (TVL) in DeFi was stolen**, resulting in the loss of hundreds of millions of dollars in users and protocols funds, and inherently, faith in the entire eco-sys
 
@@ -19,9 +19,11 @@ On top of that, the process of finding, hiring, and working with expert and reli
 
 **CodeHawks solves this** by bridging together top-notch Blockchain security experts and Protocols in an eco-system built to create security in web3.&#x20;
 
+_Earn up to 15% for every successful referral as a reward. Help your close associates in securing their DeFi protocols and_ [_earn a competitive commission for the connection_](referrals-program.md)_._
+
 ### Why CodeHawks?
 
-[CodeHawks](https://codehawks.com), powered by Cyfrin, puts together top-notch world-wide auditors and a community of thousands of security researches to ensure highest security standards when security your codebases.&#x20;
+[CodeHawks](https://codehawks.com), powered by [Cyfrin](https://cyfrin.io), puts together top-notch world-wide auditors and a community of thousands of security researches to ensure highest security standards when security your codebases.&#x20;
 
 | Feature/Attribute           | CodeHawks                       | Competitors                          |
 | --------------------------- | ------------------------------- | ------------------------------------ |
@@ -57,14 +59,14 @@ Visit our guide on the [CodeHawks ecosystem](protocol-teams-sponsors/the-ecosyst
 
 ### For Hawks (Auditors)
 
-The Hawks are our Auditors, at the heart of the CodeHawks eco-system.&#x20;
+The Hawks, our Auditors, lie at the heart of the CodeHawks ecosystem.&#x20;
 
 They:
 
-* Register on the platform.
 * Engage in competitive audits, showcasing their expertise.
-* Get [paid for their findings](hawks-auditors/payouts.md)
-* Build a network to find private auditing opportunities
+* Get [paid for their findings](hawks-auditors/payouts.md).
+* Build a network to find private auditing opportunities.
+* Are sometimes eligible to become [community judges](broken-reference).
 
 If you're interested in becoming a Hawk on CodeHawks, start by visiting our [Quickstart guide](hawks-auditors/quick-start.md)
 
