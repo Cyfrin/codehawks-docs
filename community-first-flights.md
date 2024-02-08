@@ -28,7 +28,7 @@ Community First Flight README Template
 
 ### How to Submit a First Flight
 
-Once your repo is ready, ping @**equious.eth** on [Discord](https://discord.gg/cyfrin). He will arrange sharing of your code base privately (so as not to spoil the contest!). From here your submission will be vetted and you'll be provided any necessary feedback or adjustments that require implementation.
+Once your repo is ready fill out this [form](https://app.deform.cc/form/4f8e7158-eb8a-457c-b15a-c3267514ec12) and, ping @**equious.eth** on [Discord](https://discord.gg/cyfrin). He will arrange sharing of your code base privately (so as not to spoil the contest!). From here your submission will be vetted and you'll be provided any necessary feedback or adjustments that require implementation.
 
 ### When will my First Flight be Chosen?
 
