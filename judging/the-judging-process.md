@@ -10,23 +10,23 @@ Here's an in-depth look at how the judging process unfolds.
 
 This will be clearly communicated via announcements on [Twitter](https://twitter.com/CodeHawks) and [Discord](https://discord.gg/cyfrin).
 
-**Duration**: While the time taken for judging largely depends on the volume of submissions and size of the codebase, it usually takes approximately 1-2 weeks - check the [Timelines guide](../protocol-teams-sponsors/audit-pricing-and-timelines.md) for more information.
+**Duration**: The Community Judging phase will be time locked before being passed to a Lead Judge. The duration of the community phase \<information on duration>. While submission volume certainly plays a part, the average judging period is \~2.5 weeks. Please see the [Timelines Guide](../protocol-teams-sponsors/audit-pricing-and-timelines.md) for more information.
 
 ### The Judging Panel
 
-**Current Model**: At present, the Cyfrin team is largely responsible for evaluating the audits, on occasion a reputable and esteemed member of the community may be invited to assist in judging.
+**Lead Judge:** A member of the Cyfrin team or an appointed, reputable and esteemed member of the community may be invited to assist in judging.
 
-**Future Innovations**: We're diligently working towards introducing a decentralized judging model (Community Judging). This model aims to eliminate any potential biases as well as open source the assessments of submitted vulnerabilities.
+**Community Judges:** All eligible members of the community may participate in submission judgement.
 
-**Participation Restrictions**: To ensure impartiality, members of the Cyfrin team are prohibited from participating in audit competitions.
+You can check out more information on eligibility [here](eligibility.md)!
 
 ### Judging Interactions
 
 **Contest Submissions**: Once judging begins, further submissions through the CodeHawks Audit Portal will be disabled
 
-**Feedback and Comments**: Judges will provide detailed comments on each submission, clarifying their decisions and reasonings. These will be revealed for consideration **only** once the [appeals ](appeals.md)phase begins.
+**Judges:** Community Judges will use the CodeHawks portal to submit their assessments to the Lead Judge for each contest.
 
-**Descriptive Tags:** Judges will also be leaving descriptive tags of the finding on each valid submission.
+Find more information on Community Judging and how it works [here](how-community-judging-works.md).
 
 ### Standards for Validity
 
@@ -41,7 +41,6 @@ To learn more about what constitutes a valid finding, please refer to the [What 
 
 During the judging phase, participants might observe tags being added to their submissions. These tags serve as indicators and can denote various aspects, including:
 
-* **Duplicate Findings**: Identified by a sorting bot, for example, `ai-dup-1785`.
 * **Valid Findings**: Recognized by tags like `finding-reentrancy-borrow-function`.
 * **Selected Findings**: Denoted by the `selected` tag.
 

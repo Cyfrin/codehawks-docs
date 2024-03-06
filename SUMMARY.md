@@ -1,11 +1,11 @@
 # Table of contents
 
 * [👋 Intro to Codehawks](README.md)
-* [✏ Glossary](glossary.md)
-* [⁉ FAQs](faqs.md)
+* [✏️ Glossary](glossary.md)
+* [⁉️ FAQs](faqs.md)
 * [🤝 Referrals program](referrals-program.md)
 
-## 👩💻 Protocol teams (sponsors)
+## 👩‍💻 Protocol teams (sponsors)
 
 * [Requesting an audit](protocol-teams-sponsors/requesting-an-audit.md)
 * [The Ecosystem](protocol-teams-sponsors/the-ecosystem.md)
@@ -14,7 +14,7 @@
 * [Audit pricing and timelines](protocol-teams-sponsors/audit-pricing-and-timelines.md)
 * [Competitive vs Private Auditings](protocol-teams-sponsors/competitive-vs-private-auditings.md)
 
-## 🛡 Hawks (auditors)
+## 🛡️ Hawks (auditors)
 
 * [Quick Start](hawks-auditors/quick-start.md)
 * [What is an Auditing Competition?](hawks-auditors/what-is-an-auditing-competition.md)
@@ -26,18 +26,21 @@
 * [Payouts](hawks-auditors/payouts.md)
 * [How Does XP Work?](hawks-auditors/how-does-xp-work.md)
 
-## 👩⚖ Judging
+## 👩‍⚖️ Judging
 
 * [The Judging Process](judging/the-judging-process.md)
+* [Eligibility](judging/eligibility.md)
+* [How Community Judging Works](judging/how-community-judging-works.md)
 * [Disqualification Criteria](judging/disqualification-criteria.md)
 * [Appeals](judging/appeals.md)
+* [Payouts and Rewards](judging/payouts-and-rewards.md)
 
 ***
 
 * [🦅 First Flights](first-flights.md)
 * [🫂 Community First Flights](community-first-flights.md)
 * [💡 Philosophy and Mission](philosophy-and-mission.md)
-* [🛠 Tools](tools.md)
+* [🛠️ Tools](tools.md)
 * [📚 Learning and resources](learning-and-resources.md)
 * [Twitter](https://twitter.com/CodeHawks)
 * [Discord](https://discord.gg/UFXqFACHWA)

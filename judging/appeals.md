@@ -38,4 +38,6 @@ To initiate an appeal:
 * **Quality Over Quantity**: While we appreciate thoroughness and attention to detail, it's essential to ensure that appeals are well-reasoned and backed by substantial evidence. Appeals that appear hasty or lack clarity will be promptly closed.
 * **Frequency of Appeals**: Participants are encouraged to raise valid concerns. However, excessive appeals with little to no merit can lead to a situation where even valid concerns from the said participant might be disqualified. We urge participants to be discerning and thoughtful in their approach.
 
+Lead Judges of a contest will be responsible for assessing appeals during the appeals phase.
+
 For any further feedback or concerns, participants can use our [Feedback Form](https://app.deform.cc/form/992e3c6a-b817-49f5-8075-1e50fb2e2d0f/).
