@@ -10,9 +10,3 @@ Competitive Judges will be eligible for payouts based on their performance while
 * 10% or $5000 is allotted as a judging pool
 * Community Judges are ranked by points earned during the judging period
 * Top 5 Community Judges receive $1000 each
-
-### CodeHawks Judging XP
-
-Participants in Community Judging will also be awarded Judging Experience (This is distinct from [CodeHawks XP](../hawks-auditors/how-does-xp-work.md)).&#x20;
-
-These points will be awarded based on a judge's performance at a rate of 1 point = 1 XP.  Judging experience will serve as a measure of one's success and participation within the CodeHawks Community Judging platform with additional use TBD.
