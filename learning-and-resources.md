@@ -10,7 +10,7 @@ description: In order to stay ahead of the attackers, you need to be constantly 
 
 We've built curriculums for all levels and backgrounds, designed to bring in more engineers into the blockchain industry.
 
-[Register here](https://updraft.cyfrin.io) and get access to Cyfrin Updraft for fee today!
+[Register here](https://updraft.cyfrin.io) and get access to Cyfrin Updraft for free today!
 
 <figure><img src=".gitbook/assets/CleanShot 2024-02-07 at 16.07.31@2x.png" alt=""><figcaption></figcaption></figure>
 

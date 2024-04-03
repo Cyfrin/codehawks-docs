@@ -12,7 +12,7 @@ Here's a quickstart guide to kick off your auditing journey:
 
 * Engage with the CodeHawks team during our screening call.
 * Discuss your project's audit scope, timeline, and initial requirements.
-* Check our guidelines ADD LINK to better understand what's needed for the audit.
+* [Check our guidelines](requesting-an-audit.md#id-4.-prepare-for-the-audit) to better understand what's needed for the audit.
 
 ### 3. Understand Pricing & Timelines
 
