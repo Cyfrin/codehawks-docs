@@ -6,6 +6,8 @@ _Rewards are currently paid out in **USDC on Arbitrum One.**_
 
 Payouts for auditors consist in shares of the prize pool calculated based on the [severity](how-to-evaluate-a-finding-severity.md) and [number of findings](how-to-write-and-submit-a-finding.md) an auditor submits during a smart contract auditing competition.
 
+_**Please note: Payouts may be within 0.0001 USDC margin of error.**_
+
 ### High / Medium Findings
 
 #### Current Payout Calculation:

@@ -4,6 +4,8 @@ The judging reward pool is set at **10%** of the contest's total prize pool. Pay
 
 Competitive Judges will be eligible for payouts based on their performance while judging a contest. The **Top 5 community judging participants by total point value** will receive equal portions of the judging pool (2% of total contest prize pool).
 
+_**Please note: Payouts may be within 0.0001 USDC margin of error.**_
+
 **Example:**&#x20;
 
 * Contest is hosted for $50,000 total prize pool
