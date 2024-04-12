@@ -102,4 +102,4 @@ As of August 18th, 2023, CodeHawks is no longer accepting submissions with a sev
 
 ***
 
-For more information on how to write and submit findings, refer to the [How to write and submit a finding](https://chat.openai.com/ADD\_LINK) guide.
+For more information on how to write and submit findings, refer to the [How to write and submit a finding](how-to-write-and-submit-a-finding.md) guide.
