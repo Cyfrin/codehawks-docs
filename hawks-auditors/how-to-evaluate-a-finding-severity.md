@@ -77,7 +77,7 @@ For more examples of Medium severity findings, visit [Solodit](https://solodit.x
 
 **Properties:**
 
-* Minimal to no impact on the funds or the protocol's main functionality.
+* Minimal impact on the funds or the protocol's main functionality.
 * The vulnerability doesn't lead to tangible real-world damage.
 * The path to exploit is either non-existent or highly improbable.
 
