@@ -1,12 +1,25 @@
-# How to Write and Submit a Finding
+# How to Present Your Findings
 
-## **How to Write and Submit a Finding with CodeHawks**
+At Cyfrin CodeHawks, ensuring a streamlined and standardized process for reporting vulnerabilities is paramount. This ensures your submissions are explained clearly, facilitates fair judging, and gives you better chances to submit a valid finding and earn rewards.
 
-At CodeHawks, ensuring a streamlined and standardized process for reporting vulnerabilities is of utmost importance. This ensures your submissions are explained with clarity, facilitates fair judging, and results in a safer blockchain ecosystem.
+All finding submissions are handled directly through the CodeHawks web platform to ensure a simple and streamlined process.
 
-All finding submissions are handled directly through the [CodeHawks](https://www.codehawks.com) web platform to ensure a simple and streamlined process.
+### **Choosing between submitting single or multiple reports**
 
-### **How to format your finding report**
+Once you've determined the [severity of your finding](how-to-evaluate-a-finding-severity.md) and its [validity](how-to-determine-a-finding-validity.md), refer to the following report format:
+
+* **Medium or High Severity Findings**: Submit individually.
+* **Low Findings (Low risk or Non-critical)**: Compile into a single report per auditor or team
+
+### **How to adequately explain and prove your findings**&#x20;
+
+The auditors are responsible for validating the findings. A detailed explanation and justification of the potential impact are crucial for a top-quality submission. The depth of the proof required correlates with the potential value of the submission.
+
+Insufficient proof is when a judge needs to invest additional time in research or coding to verify the claims made in the submission. Providing a coded [proof of concept (POC)](how-to-create-and-submit-a-poc.md) for your findings is highly recommended. This aids the judges immensely in swiftly and accurately verifying your claims.
+
+_Submissions deemed to lack sufficient evidence may risk_ [_invalidation_](../judging/disqualification-criteria.md)_._
+
+### **How to format your report**
 
 When documenting a finding, adhere to the following structure:
 
@@ -31,23 +44,4 @@ When documenting a finding, adhere to the following structure:
 
 (Suggest ways to resolve or mitigate the identified vulnerability.)
 ```
-
-### **Report Format for different findings severity**
-
-Once you've determined the [severity of your finding](how-to-evaluate-a-finding-severity.md) follow the following report format:
-
-* **Medium or High Severity Findings**: Submit individually.
-* **Low Findings (Low risk or Non-critical)**: Compile into a single report per auditor or team.
-
-For an in-depth understanding on assessing risk, refer to our [how to evaluate a finding severity](how-to-evaluate-a-finding-severity.md) guide
-
-### **Burden of Proof**
-
-The responsibility to validate the findings rests with the auditors. A detailed explanation and justification of the potential impact are crucial for a top-quality submission. The depth of the proof required correlates with the potential value of the submission.
-
-An insufficient proof is when a judge needs to invest additional time in research or coding to verify the claims made in the submission. It's highly recommended to provide a coded proof of concept (POC) for your findings. This aids the judges immensely in verifying your claims swiftly and accurately.
-
-_Submissions deemed to lack sufficient evidence may risk invalidation._
-
-Refer to our [How to create a PoC guide](how-to-create-and-submit-a-poc.md) to learn how to get the most our of your reports.
 

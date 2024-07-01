@@ -1,4 +1,8 @@
-# 🛠 Tools
+---
+description: A list of suggested tools from the Cyfrin CodeHawks auditors' community
+---
+
+# 🛠️ Tools
 
 ### Auditor Tools
 
@@ -8,12 +12,10 @@ These are auditor tools that you can use to help you audit smart contracts.
 
 ### Static Analysis
 
-* [Slither](https://github.com/crytic/slither)
+* [Aderyn](https://github.com/Cyfrin/aderyn)
 * [4naly3er](https://github.com/Picodes/4naly3er)
 
 ### Symbolic Execution / Formal Verification Tools
-
-_Note: At the moment, formal verification is sometimes seen as overkill, especially for competitive audits._
 
 * [Manticore](https://github.com/trailofbits/manticore)
 * [Mythril](https://github.com/ConsenSys/mythril)

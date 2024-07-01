@@ -19,7 +19,6 @@ Welcome to the CodeHawks XP System documentation page. Our XP system is designed
 1. **Submission-based XP**:
    * Earn XP for each valid submission based on its post-judging severity rating.
    * Default XP rewards:
-     * Gas: 1 XP
      * Low: 2 XP
      * Medium: 20 XP
      * High: 100 XP

@@ -1,25 +1,33 @@
 # The Kick-Off Period
 
-### Overview
+The Kick-Off period is designed to introduce participants to the contest, clarify the codebase and rules, and provide a moment for any immediate questions or concerns. This 48-hour window is vital for all participants and the fairness of a competitive audit.
 
-The Kick-Off period is designed to introduce participants to the contest, offer clarity on the codebase and rules, and provide an moment for any immediate questions or concerns. This 48-hour window is vital for all participants and the fairness of a competitive audit.
+### Key events of the kick-off period
 
-### Key Events of the Kick-Off Period
+<details>
 
-#### 1. Contest Commencement Announcements
+<summary>1. Contest Commencement Announcements</summary>
 
-The start of the Kick-Off period will be marked by an official announcement. This will signify the beginning of the competition and provide all necessary details about the upcoming events during the Kick-Off.
+An official announcement will mark the start of the Kick-Off period. This will signify the beginning of the competition and provide all necessary details about the upcoming events during the Kick-Off.
 
-#### 2. Kick-Off Live Stream
+</details>
+
+<details>
+
+<summary>2. Kick-Off Live Stream (optional)</summary>
 
 During the Kick-Off live stream, participants will:
 
 * Be given a thorough walkthrough of the codebase. This will help in understanding the structure, functionalities, and intricacies of the code you'll be auditing.
-* Have the opportunity to interact with sponsors and team members. They will be available to answer any questions you might have about the competition, the codebase, or any other related topic.
+* Have the opportunity to interact with sponsors and team members. They will be available to answer questions about the competition, the codebase, or related topics.
 
 **Note**: We highly recommend attending the live stream. It's a valuable opportunity to gain insights and clear up any uncertainties before diving into the audit.
 
-#### 3. Clarification & Feedback Window
+</details>
+
+<details>
+
+<summary>3. Clarification &#x26; Feedback Window</summary>
 
 For the entire duration of the 48-hour Kick-Off period, participants can:
 
@@ -27,6 +35,8 @@ For the entire duration of the 48-hour Kick-Off period, participants can:
 * Discuss and provide feedback on any known issues with the spec. If you spot inconsistencies, ambiguities, or potential problems, you're encouraged to bring them up.
 
 By the end of the Kick-Off period, the contest spec will be finalized based on the discussions and feedback.
+
+</details>
 
 ### Important Notes
 

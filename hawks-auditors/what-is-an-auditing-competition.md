@@ -1,85 +1,78 @@
-# What is an Auditing Competition?
+# What is a Competitive Audit?
 
-A smart contract auditing competition is an event where participants (Hawks!) review a given smart contract or a set of smart contracts to identify vulnerabilities, inefficiencies, and any other potential issues. These auditors compete against each other to find as many [valid issues](how-to-write-and-submit-a-finding.md) as possible, and they are rewarded based on the [significance](how-to-evaluate-a-finding-severity.md) and [quality](how-to-determine-a-finding-validity.md) of their findings.
+A smart contract security auditing competition or contest is where security researchers, Hawks, review a smart contract or codebase to identify vulnerabilities, inefficiencies, and potential issues.&#x20;
 
-### **How does a CodeHawks auditing competition works:**
+Auditors then submit their findings to be rewarded based on their [validity](how-to-determine-a-finding-validity.md), quality, and [severity](how-to-evaluate-a-finding-severity.md).
 
-### 1.**Announcement**
+{% hint style="info" %}
+**Don't want to miss any of our competition announcements?**&#x20;
 
-This is the initial phase where we announce the upcoming competition, detailing the smart contract(s) to be audited, [prize pool](payouts.md), and other essential information.&#x20;
+Make sure to follow us on [Twitter](https://twitter.com/CyfrinAudits?s=20) and join our [Discord](https://discord.gg/cyfrin) server!
+{% endhint %}
 
-* Clicking on the 'Subscribe' button for a competition will allow you to receive valuable notifications, like when the competition officially begins
+### **How does a Cyfrin CodeHawks auditing competition work?**
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-08-30 at 11.34.19.png" alt=""><figcaption></figcaption></figure>
+Every smart contract auditing competition is comprised of seven periods:
 
-The contest details page (accessible by clicking 'view') is filled with valuable information such as:
+<details>
 
-* [Prize pool](payouts.md) severity break downs
-* Start and End dates
-* [nSLOC](../glossary.md) and Scope
-* Scoring
+<summary>1. Competition announcement</summary>
 
-Don't want to miss any of our competitions announcements? Make sure to follow us on [Twitter](https://twitter.com/CyfrinAudits?s=20) and join our [Discord](https://discord.gg/cyfrin) server!
+This is the initial phase in which we announce the upcoming competition, detailing the smart contract(s) to be audited.
 
-### 2. **Kick-Off**
+Learn how to subscribe and submit your first vulnerability following the [quick start guide](quick-start.md).
 
-The official start of the competition. From this point, participants can access the contract repo and begin their auditing process. Findings can be submitted through the [contest](https://www.codehawks.com/contests) page on the web portal.
+</details>
 
-We'll be hosting a Live Kick-Off stream for each contest to introduce the code base and interview sponsors, so don't miss those on our [YouTube Channel](https://www.youtube.com/channel/UCwlGG-aBeR95seT49XetR8A)!
+<details>
 
-### 3. [**Auditing Period**](how-to-write-and-submit-a-finding.md)
+<summary>2. Kick-off </summary>
 
-* Auditors delve deep into the provided smart contract(s), using their expertise to uncover vulnerabilities, inefficiencies, and other issues and recommendations. These findings are submitted to judges for assessment in the next phase.
-* This period is time-bound, ensuring a level playing field.
-* The amount of time allotted for a competition is largely determined by the size of the code base being audited
+This is the official start of the competition, and it will last 48 hours. From now on, participants can access the contract repo on the contests page and begin looking for bugs, issues, and vulnerabilities. Findings can be submitted through the contest page on the web portal.
 
-**4.** [**Judging Period**](../judging/the-judging-process.md)
+During [the kick-off](what-is-an-auditing-competition.md#id-2.-kick-off) period, auditors can also raise issues with the codebase, the scope, or any other contest's details.
 
-* Once the auditing period concludes, the _CodeHawks_ team or appointed judges will review the submissions. This is to validate the findings, rank them based on severity, and prepare for the next phase.
-* Length of this period is largely determined by number of submissions received.
-* Community Judging models are being created to speed up the judging process and afford opportunities for auditor community feedback.
+</details>
 
-### 5. [**Escalation Period**](../judging/appeals.md)
+<details>
 
-* For **48 hours** following the completion of initial judging, auditors can raise concerns or objections about the decisions made during the judging phase. It’s a window for the community to ensure transparency and fairness.
+<summary>3. Auditing</summary>
 
-### 6. [**Reward Payout**](payouts.md)
+Auditors delve deep into the provided smart contract(s), using their expertise to uncover vulnerabilities, inefficiencies, and other issues and recommendations. In the next phase, these findings are submitted to judges for assessment.
 
-* After addressing escalations, the final results are announced, and rewards are distributed to auditors based on the quality and significance of their findings.
-* Payouts are distributed within 72 hours from the closure of the escalation period and are currently paid in USDC on Arbitrum one L2 leveraging [wentokens.xyz](https://www.wentokens.xyz/) for gas-optimized transactions.
+This period is time-bound, ensuring a level playing field.
 
-In addition to the above, CodeHawks will be introducing a innovative [XP system](how-does-xp-work.md) to reward auditors for their time, dedication and contributions within the community and unique opportunities will be made available to profiles as they advance.\
-\
-Stay Tuned for additionial details to be announced!
+The time allotted for a competition is determined mainly by the size of the audited code base.
 
-### 7. **Closure**
+</details>
 
-* The official end of the competition, marking a successful collaboration between CodeHawks and its  community of auditors.
+<details>
 
-## **Why Participate?**
+<summary>4. Community judging and lead judging</summary>
 
-#### Level Up Your Skills:
+Once the auditing period concludes, the [community judging](../judging/how-community-judging-works.md) period will start, followed by the lead judging period, during which the Cyfrin CodeHawks team or appointed [judges](../judging/the-judging-process.md) will review the submissions. This will validate the findings, rank them based on severity, and prepare for the appeals phase.
 
-Every competition offers a unique opportunity to hone your skills, learning from real-world smart contract scenarios.&#x20;
+The length of this period is primarily determined by the number of submissions received.
 
-The CodeHawks platform hosts a leaderboard so auditors can track and compare their progress and be recognized by the community.
+</details>
 
-More contests > Better Rankings > Higher Visibility > HUGE Opportunity (private audits etc)
+<details>
 
-**Rewards:**
+<summary>5. Appeals</summary>
 
-Beyond the intrinsic motivation of ensuring blockchain safety, there's money to be won for contributing significant findings - [BIG money](payouts.md).
+For **48 hours** after the initial judging, auditors can raise concerns and [appeals](appeals.md) about the decisions made during the judging phase. This window allows the community to ensure transparency and fairness.
 
-In addition to this, the CodeHawks platform will be introducing a unique XP system to award and recognize contributions and participation within the community, with unique opportunities tied to this system's achievements. Stay tuned for additional details!
+</details>
 
-**Community Collaboration**:
+<details>
 
-Engage with a community of like-minded enthusiasts, share insights, and grow together. Our [Discord](https://discord.gg/cyfrin) and [Twitter](https://twitter.com/CyfrinAudits?ref\_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) families are bursting with energetic, like-minded people looking to connect.
+<summary>6. Rewards</summary>
 
-**Securing Web3:**
+After addressing escalations, the final results are announced, and rewards are distributed to auditors based on the quality and significance of their findings.
 
-Each successful audit brings Web3 and the blockchain ecosystem one step closer to robust security practices which will spring mass adoption of Web3!
+[Payouts](payouts.md) are distributed within 72 hours of the escalation period's closure and are currently paid in USDC on ZKsync.
+
+</details>
 
 ***
 
-Smart Contract Auditing Competitions with CodeHawks are more than just contests. They are collaborative events that further the mission of a safer and more robust blockchain ecosystem.&#x20;

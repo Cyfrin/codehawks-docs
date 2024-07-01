@@ -1,93 +1,90 @@
+---
+description: Find answers to the most frequently asked questions on CodeHawks.
+---
+
 # ⁉️ FAQs
 
-### **Judging**
+### **⚙️ General**&#x20;
 
 ***
 
-#### **Who are the CodeHawks judges?**
+<details>
 
-Judging is conducted by a dedicated panel consisting of members from the Cyfrin team and engineers from the sponsoring protocol. This approach ensures impartiality, minimizing potential bias and conflicts of interest.
+<summary>What is Cyfrin CodeHawks?</summary>
 
-#### **How long does judging take?**
+Codehawks is a smart contract competitive audits platform helping protect some of the world’s largest protocols, thousands of users, and billions of TVL through crowdsourced security pre and post-deployment security solutions.
 
-The duration for judging varies based on the size of the codebase and the number of submissions received. Specific timelines for each contest will be announced on our [**Twitter page**](https://twitter.com/CodeHawks) and within the appropriate contest channel on our [Discord](https://discord.gg/cyfrin).
+</details>
 
-#### **Can I help Judge?**
+<details>
 
-Currently, we do not have a community judges initiative in place. However, it's on our roadmap for future implementation. Our primary concern is to ensure that any system we introduce maintains the highest standards of impartiality and transparency. We've observed conflicts of interest arising on other competitive platforms when community members were involved in judging. Our goal is to create a judging process that everyone can trust and feel comfortable with.
+<summary>What is a competitive audit?</summary>
 
-#### **I don’t agree with the judgment, what can I do?**
+Protocols and organizations host competitions to find vulnerabilities in their smart contracts. Auditors uncover vulnerabilities and bugs in a project’s codebase to earn a reward.
 
-The judging period of every contest is immediately followed by a 48 hour Appeals Period. This period allows auditors an opportunity to raise objections and voice concerns they have with the preliminary judgements. The Appeals Period will be clearly announced via [Twitter](https://twitter.com/CodeHawks) and [Discord](https://discord.gg/cyfrin)
+Competitions incentivize security auditors to conduct more comprehensive audits by offering rewards based on the severity of the bugs they discover.
 
-See the [Appeals](judging/appeals.md) page for more information.
+</details>
 
-#### **What is a finding?**
+<details>
 
-A finding represents a vulnerability in the codebase. Findings are categorized into different levels of severity:
+<summary>How can I host a competition on CodeHawks?</summary>
 
-1. **High:** This category indicates that funds are directly or nearly directly at risk.
-2. **Medium:** In this category, funds are indirectly at risk, or there's a disruption of protocol functionality or availability.
-3. **Low, Gas, Informational:**
-   * **Low:** Funds are not at risk, but a function might be incorrect, state might not be handled appropriately, etc.
-   * **Gas:** Refers to gas optimizations.
-   * **Informational:** Pertains to code style, maturity, code smells, comment correctness, and similar aspects.
+Fill out [this form](https://cyfrin.io/get-an-audit) to contact us. One of our experts will contact you within 48 hours to walk you through every step of the process and find the right security solution for your protocol or organization's needs.
 
-It's important to note that there is some subjectivity involved in these categories, and the final determination of a finding's category is at the discretion of the judges. If a protocol has its own specific criteria, then that should be followed.
+</details>
 
-Additionally, at the beginning of each competition, the "[4naly3er](https://github.com/Picodes/4naly3er)" tool will be run, and any findings associated with this tool are ineligible for rewards. The basis for findings may evolve as CodeHawks progresses.
+<details>
 
-For more information related to findings and how to evaluate their severity, consult the [how-to-evaluate-a-finding-severity.md](hawks-auditors/how-to-evaluate-a-finding-severity.md "mention")guide.
+<summary>How is a contest prize pool determined?</summary>
 
-### 📃 **Submissions**
+The total prize pool of a contest is calculated based on the number of lines of code in the codebase's scope, without counting comments and empty lines.
+
+</details>
+
+<details>
+
+<summary>How do I get rewarded?</summary>
+
+Rewards are paid out in USDC through the ZKsync chain. Once a judge deems a submission valid, a reward will be assigned and credited to the zkSync wallet address indicated by the user on their profile once the competition ends.
+
+**Note**: crediting the reward won't be possible without a ZKsync wallet connected to the user profile.
+
+</details>
+
+<details>
+
+<summary>Where can I find invoice information for my winnings?</summary>
+
+**Address:**
+
+9066 CASCADA WAY #102\
+NAPLES, FL. 34114\
+UNITED STATES\
+\
+**Tax ID:**\
+92-1600150\
+\
+**Company Name:**\
+Cyfrin Inc.
+
+</details>
+
+### 🤝 Competitive Audits
 
 ***
 
-#### **Is X a valid submission?**
+<details>
 
-To determine if "X" is a valid submission, it must be evaluated against the criteria provided by CodeHawks. A valid submission typically represents a vulnerability in the codebase. The submission should fall into one of the categories: High, Medium, Low, Gas, or Informational. However, it's essential to note that if more than 85% of your findings are not valid, you will be disqualified from the competition. For instance, if you submit 1 valid finding and 6 invalid ones, only 14.3% of your submissions are valid, leading to disqualification.
+<summary>What is a first flight?</summary>
 
-Additionally, any findings associated with the "[4naly3er](https://github.com/Picodes/4naly3er)" tool, run at the start of each competition, are ineligible for rewards. The submission format should also align with the latest format provided on the website.
+CodeHawks First Flights is a Cyfrin flagship initiative. Smart contract auditing contests written to simulate real-world protocols, designed to introduce the next generation of developers to security audits.
 
-The guidelines used to evaluate the findings' validity can be found in the  [how-to-determine-a-finding-validity.md](hawks-auditors/how-to-determine-a-finding-validity.md "mention")documentation.
+</details>
 
-#### **What happens if one of my submissions is invalid?**
+<details>
 
-If "Y" is an invalid finding and you have a high percentage of invalid findings, it can count against you. Specifically, if more than 85% of your findings are not valid, you will be disqualified from the competition. This system is designed to allow some leeway for invalid submissions but aims to prevent participants from spamming the system with numerous invalid findings.
-
-Refer to the [how-to-determine-a-finding-validity.md](hawks-auditors/how-to-determine-a-finding-validity.md "mention") to make sure your findings respect our validity guidelines.
-
-#### **I’m unsure of the severity of my submission, what should I do?**
-
-If you're unsure of the severity of your submission, consider the following steps based on the information provided by CodeHawks:
-
-1. **Review the Categories:** Revisit the definitions of the severity categories provided by CodeHawks:
-   * **High:** Funds are directly or nearly directly at risk.
-   * **Medium:** Funds are indirectly at risk or there's a disruption of protocol functionality or availability.
-   * **Low, Gas, Informational:**
-     * **Low:** Funds are not at risk, but a function might be incorrect, or state might not be handled appropriately.
-     * **Gas:** Refers to gas optimizations.
-     * **Informational:** Pertains to code style, maturity, code smells, comment correctness, etc.
-2. **Judge's Discretion:** Remember that there is some subjectivity involved in determining the severity. The final categorization is up to the judges' discretion. If the protocol you're auditing has its own specific criteria, then that should be followed.
-3. **Seek Feedback:** Before finalizing your submission, consider discussing it with peers or mentors on our [Discord](https://discord.gg/cyfrin) server who have experience in the field. They might provide insights that can help you gauge the severity of your findings.
-4. **Provide Detailed Information:** When submitting, ensure you provide comprehensive details about the vulnerability. This includes a summary, vulnerability details, potential impact, tools used, and recommended mitigation. The more information you provide, the easier it will be for the judges to assess the severity accurately.
-5. **Stay Updated:** As CodeHawks evolves, the basis for findings and their categorizations might change. Always refer to the latest guidelines on the CodeHawks website to ensure you're up-to-date with their criteria.
-
-Lastly, even if you're unsure, it's better to submit your findings. The judges will review it and assign the appropriate severity based on their assessment.
-
-For more information consult [how-to-evaluate-a-finding-severity.md](hawks-auditors/how-to-evaluate-a-finding-severity.md "mention").
-
-#### **What happens if I choose the wrong severity?**
-
-The severity of findings has an element of subjectivity. The judges will review your submission and may re-categorize it based on their assessment.
-
-There isn't a direct penalty mentioned for misclassifying the severity. However, consistently misclassifying or misrepresenting findings could impact your credibility in the competition.
-
-For more information consult [how-to-evaluate-a-finding-severity.md](hawks-auditors/how-to-evaluate-a-finding-severity.md "mention").
-
-### Competitive Audits
-
-#### Do we have to wait until the start date to see the code?
+<summary>Do we have to wait until the start date to see the code?</summary>
 
 Yes, codebases are made public only once the contest has started. You can find the starting date and time for every contest in the related contest page on [codehawks.com](https://codehawks.com)
 
@@ -102,23 +99,132 @@ To get the NSLOC count of a file:
 3. Remove all empty lines
 4. Count the remaining lines
 
-#### What is 'Complexity' and how is it calculated?
+</details>
 
-Complexity is determined by using the Solidity Metric's tool. Addition details available&#x20;
+### 📃 **Submissions**
 
-[**here**](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-metrics\&ssr=false#overview)**.**
+***
 
-#### Where can I find invoice information for my winnings?
+<details>
 
-**Address:**
+<summary>Is "X" a valid submission?</summary>
 
-9066 CASCADA WAY #102\
-NAPLES, FL. 34114\
-UNITED STATES\
-\
-**Tax ID:**\
-92-1600150\
-\
-**Company Name:**\
-Cyfrin Inc.
+To determine if "X" is a valid submission, it must be evaluated against the criteria provided by CodeHawks. A valid submission typically represents a vulnerability in the codebase. The submission should fall into one of the categories: High, Medium, Low, Gas, or Informational. However, it's essential to note that if more than 85% of your findings are invalid, you will be disqualified from the competition. For instance, if you submit one valid finding and six invalid ones, only 14.3% of your submissions are valid, leading to disqualification.
+
+Additionally, any findings associated with the "[4naly3er](https://github.com/Picodes/4naly3er)" tool, run at the start of each competition, are ineligible for rewards. The submission format should also align with the latest format provided on the website.
+
+The guidelines used to evaluate the findings' validity can be found in the  [how-to-determine-a-finding-validity.md](hawks-auditors/how-to-determine-a-finding-validity.md "mention")documentation.
+
+</details>
+
+<details>
+
+<summary>I’m unsure of the severity of my submission, what should I do?</summary>
+
+If you're unsure of the severity of your submission, consider the following steps based on the information provided by CodeHawks:
+
+1. **Review the Categories:** Revisit the definitions of the severity categories provided by CodeHawks:
+   * **High:** Funds are directly or nearly directly at risk.
+   * **Medium:** Funds are indirectly at risk, or protocol functionality or availability is disrupted.
+   * **Low, Gas, Informational:**
+     * **Low:** Funds are not at risk, but a function might be incorrect, or the state might not be handled appropriately.
+     * **Gas:** Refers to gas optimizations.
+     * **Informational:** Pertains to code style, maturity, code smells, comment correctness, etc.
+2. **Judge's Discretion:** Remember that determining the severity involves some subjectivity. The final categorization is up to the judges' discretion. If the protocol you're auditing has specific criteria that should be followed.
+3. **Seek Feedback:** Before finalizing your submission, consider discussing it with peers or mentors on our [Discord](https://discord.gg/cyfrin) server who have experience in the field. They might provide insights that can help you gauge the severity of your findings.
+4. **Provide Detailed Information:** When submitting, provide comprehensive details about the vulnerability. This includes a summary, vulnerability details, potential impact, tools used, and recommended mitigation. The more information you provide, the easier for the judges to assess the severity accurately.
+5. **Stay Updated:** As CodeHawks evolves, the basis for findings and their categorizations might change. Always refer to the latest guidelines on the CodeHawks website to ensure you're up-to-date with their criteria.
+
+Lastly, even if you're unsure, submitting your findings is better. The judges will review it and assign the appropriate severity based on their assessment.
+
+For more information consult [how-to-evaluate-a-finding-severity.md](hawks-auditors/how-to-evaluate-a-finding-severity.md "mention").
+
+#### **What happens if I choose the wrong severity?**
+
+The severity of findings has an element of subjectivity. The judges will review your submission and may re-categorize it based on their assessment.
+
+There isn't a direct penalty mentioned for misclassifying the severity. However, consistently misclassifying or misrepresenting findings could impact your credibility in the competition.
+
+For more information consult [how-to-evaluate-a-finding-severity.md](hawks-auditors/how-to-evaluate-a-finding-severity.md "mention").
+
+</details>
+
+<details>
+
+<summary>What happens if one of my submissions is invalid?</summary>
+
+If "Y" is an invalid finding and you have many invalid findings, it can count against you. Specifically, if more than 85% of your findings are invalid, you will be disqualified from the competition. This system is designed to allow some leeway for invalid submissions but aims to prevent participants from spamming the system with numerous invalid findings.
+
+Refer to the [how-to-determine-a-finding-validity.md](hawks-auditors/how-to-determine-a-finding-validity.md "mention") to make sure your findings respect our validity guidelines.
+
+</details>
+
+### **👩‍⚖️ Judging**&#x20;
+
+***
+
+<details>
+
+<summary>Who are the CodeHawks judges?</summary>
+
+Judging is conducted by a dedicated panel of members from the Cyfrin team and engineers from the sponsoring protocol. This approach ensures impartiality and minimizes potential bias and conflicts of interest.
+
+</details>
+
+<details>
+
+<summary>What is community judging?</summary>
+
+Community judging allows eligible CodeHawks auditors to earn rewards for judging other users' submissions. This drastically speeds up triage and turnaround times while giving auditors another chance to climb the leaderboard and showcase their skills.
+
+</details>
+
+<details>
+
+<summary>How long does judging take?</summary>
+
+The duration for judging varies based on the size of the codebase and the number of submissions received. Specific timelines for each contest will be announced on our [**Twitter page**](https://twitter.com/CodeHawks) and within the appropriate contest channel on our [Discord](https://discord.gg/cyfrin).
+
+</details>
+
+<details>
+
+<summary>Can I help Judge?</summary>
+
+Currently, we do not have a community judges initiative in place. However, it's on our roadmap for future implementation. Our primary concern is to ensure that any system we introduce maintains the highest standards of impartiality and transparency. We've observed conflicts of interest arising on other competitive platforms when community members were involved in judging.&#x20;
+
+We aim to create a judging process everyone can trust and feel comfortable with.
+
+</details>
+
+<details>
+
+<summary>I don’t agree with the judgment, what can I do?</summary>
+
+The judging period of every contest is immediately followed by a 48-hour Appeals Period. This period allows auditors an opportunity to raise objections and voice concerns they have with the preliminary judgments. The Appeals Period will be clearly announced via [Twitter](https://twitter.com/CodeHawks) and [Discord](https://discord.gg/cyfrin)
+
+See the [Appeals](hawks-auditors/appeals.md) page for more information.
+
+</details>
+
+<details>
+
+<summary>What is a finding?</summary>
+
+A finding represents a vulnerability in the codebase. Findings are categorized into different levels of severity:
+
+1. **High:** This category indicates that funds are directly or nearly at risk.
+2. **Medium:** In this category, funds are indirectly at risk, or protocol functionality or availability is disrupted.
+3. **Low, Gas, Informational:**
+   * **Low:** Funds are not at risk, but a function might be incorrect, state might not be handled appropriately, etc.
+   * **Gas:** Refers to gas optimizations.
+   * **Informational:** Pertains to code style, maturity, code smells, comment correctness, and similar aspects.
+
+It's important to note that these categories involve some subjectivity, and the judges determine a finding's category. If a protocol has specific criteria, then that should be followed.
+
+Additionally, at the beginning of each competition, the "[4naly3er](https://github.com/Picodes/4naly3er)" tool will be run, and any findings associated with this tool are ineligible for rewards. The basis for findings may evolve as CodeHawks progresses.
+
+For more information on findings and how to evaluate their severity, consult the [how-to-evaluate-a-finding-severity.md](hawks-auditors/how-to-evaluate-a-finding-severity.md "mention")guide.
+
+</details>
 
