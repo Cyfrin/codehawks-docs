@@ -70,6 +70,14 @@ Cyfrin Inc.
 
 </details>
 
+<details>
+
+<summary>How do I KYC to receive a reward?</summary>
+
+Specific competitions will need auditors to KYC to receive their rewards. Once the contest ends, if you're not KYC'd yet, you'll receive an in-platform notification and an email with all the steps you'll need to take to complete the KYC process and unlock your rewards.
+
+</details>
+
 ### 🤝 Competitive Audits
 
 ***
