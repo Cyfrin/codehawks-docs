@@ -8,7 +8,7 @@ description: Find the definition of commonly used terms on CodeHawks.
 
 <summary>nSLOC</summary>
 
-nSLOC stands for 'Normalized Source Code,' a custom measurement we use (among other things) to evaluate the complexity of a codebase.
+nSLOC stands for 'Normalized Source Lines of Code,' a custom measurement we use (among other things) to evaluate the complexity of a codebase.
 
 To get the NSLOC count of a file:
 
