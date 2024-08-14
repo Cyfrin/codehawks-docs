@@ -6,7 +6,7 @@ CodeHawks is a **leading competitive smart contract audit marketplace powered by
 
 Digital value exchange enabled by decentralized finance and smart contracts requires outstanding security and best practices to reach mainstream adoption.&#x20;
 
-O_ver $250B is locked in the DeFi ecosystem, and in the past six months alone, over $1B has been lost in more than 100 DeFi exploits._ \
+_Over $250B is locked in the DeFi ecosystem, and in the past six months alone, over $1B has been lost in more than 100 DeFi exploits._ \
 \
 Last year, 6% of the Total Value Locked (TVL) in DeFi was stolen, resulting in the loss of hundreds of millions of dollars in users and protocols funds and, inherently, faith in the entire ecosystem.
 

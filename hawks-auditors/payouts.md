@@ -88,6 +88,6 @@ These have the same **root cause** even though they are submitted with different
 The following are not considered duplicates:
 
 * **Users can lose precision when it doesn't check for address(0): low.**
-* **Multiply before divide loses precision: low.**
+* **Dividing before multiplying loses precision: low.**
 
 Since they have different root causes (checking the zero address vs dividing before multiplying), they are not considered duplicates.
