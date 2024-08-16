@@ -13,6 +13,8 @@ To enforce a fair and streamlined competition environment, to raise an appeal on
 2. **Have earned at least $200 USDC from previous CodeHawks competitions:** This will further mitigate unqualified or inexperienced judges and serve as a Sybil defense mechanism.
 3. **Have a total submission to valid submission ratio greater than or equal to 0.2** will ensure that only auditors who share Cyfrin's commitment to industry-leading quality can judge other submissions.
 
+**Note:** An auditor will always be eligible to appeal their own submissions. The above eligibility criteria apply to appealing the submissions of others only.
+
 ### Preliminary results release
 
 The unveiling of preliminary results takes place immediately after the conclusion of our judging process. This release serves as an initial insight into the standing of submissions and gives participants a sense of their performance.
