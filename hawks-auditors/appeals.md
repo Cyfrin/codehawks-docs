@@ -10,7 +10,7 @@ During the 48 hours, interactions will be enabled on your GitHub submissions. Du
 To enforce a fair and streamlined competition environment, to raise an appeal on a third-party submission (owned by other auditors), auditors must:
 
 1. **Have at least one submission in the Contest they would be judging:** This assures the community judge that they will possess the context and familiarity with the code necessary to provide an accurate and valid submission assessment.
-2. **Have earned at least $200 USDC from previous CodeHawks competitions:** This will further mitigate unqualified or inexperienced judges and serve as a Sybil defense mechanism.
+2. **Have earned at least $200 USDC from previous CodeHawks competitions:** This will further mitigate unqualified or inexperienced auditors and serve as a Sybil defense mechanism.
 3. **Have a total submission to valid submission ratio greater than or equal to 0.2** will ensure that only auditors who share Cyfrin's commitment to industry-leading quality can judge other submissions.
 
 **Note:** An auditor will always be eligible to appeal their own submissions. The above eligibility criteria apply to appealing the submissions of others only.
