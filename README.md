@@ -66,6 +66,3 @@ Judges are the team, community, and protocol members dedicated to reviewing Hawk
 They are responsible for ensuring our top-notch security reports by revising, testing, and verifying thousands of security researchers' submissions every year.
 
 To learn more about our [judging process](judging/the-judging-process.md) or [evaluation criteria](judging/disqualification-criteria.md) - visit the dedicated sections.
-
-
-
